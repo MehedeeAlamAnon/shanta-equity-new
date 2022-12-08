@@ -4,6 +4,6 @@ export default defineNuxtConfig({
     '@nuxt/content',
     // '@nuxt/image-edge',
     'nuxt-windicss',
-    '@vueuse/nuxt'
+    '@vueuse/nuxt',
   ],
 })
