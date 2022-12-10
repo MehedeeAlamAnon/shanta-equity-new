@@ -6,8 +6,7 @@
     >
       <div class="container mx-auto px-32px">
         <h1 class="max-w-928px text-120px leading-150px text-white">
-          Strategies <br />
-          Beyond Ordinary
+          Strategies Beyond Ordinary
         </h1>
         <button
           class="mt-60px text-20px leading-24px font-light border-1 border-white rounded-20px text-white py-15px px-30px uppercase"

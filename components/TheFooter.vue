@@ -15,7 +15,7 @@
               Corporate Office
             </h3>
             <p
-              class="text-14px leading-22px font-light tracking-0.04em mb-12px"
+              class="text-14px leading-22px font-light tracking-0.04em mb-12px max-w-257px"
             >
               The Glass House Level 04, S.E (B)-2, 38 Gulshan Avenue, Dhaka 1212
             </p>
