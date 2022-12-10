@@ -33,7 +33,7 @@
           <div class="w-230px relative">
             <input
               type="search"
-              placeholder="search"
+              placeholder="Search"
               class="w-full h-41px text-[#1f3c74] border-1 border-[#1f3c74] rounded-100px py-8px pl-40px pr-12px search"
             />
             <img
@@ -48,7 +48,7 @@
   </header>
 </template>
 
-<style scope lang="scss">
+<style scoped lang="scss">
 .nav-link {
   font-size: 18px;
   color: #1f3c74;
