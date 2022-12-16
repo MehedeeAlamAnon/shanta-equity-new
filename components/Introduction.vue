@@ -1,5 +1,5 @@
 <template>
-  <section class="">
+  <section>
     <div class="flex items-center">
       <div
         class="w-[43.65%] intro-img bg-cover bg-center bg-no-repeat min-h-425px"
@@ -33,11 +33,9 @@
   </section>
 </template>
 
-<script setup></script>
-
 <style lang="scss" scoped>
 .intro-img {
-  background-image: url('~/assets/images/introduction.svg');
+  background-image: url("~/assets/images/introduction.svg");
 }
 .intro-img-overlay {
   background: linear-gradient(

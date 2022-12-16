@@ -1,6 +1,6 @@
 <template>
   <footer class="bg-[#f8f8f8]">
-    <div class="container mx-auto px-32px py-53px">
+    <div class="container mx-auto px-4 py-53px">
       <div class="grid grid-cols-2">
         <div>
           <img

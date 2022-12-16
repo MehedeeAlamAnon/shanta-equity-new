@@ -4,12 +4,12 @@
     <div
       class="banner-content min-h-620px bg-black bg-opacity-17 flex items-center"
     >
-      <div class="container mx-auto px-32px">
+      <div class="container mx-auto px-4">
         <h1 class="max-w-928px text-120px leading-150px text-white">
           Strategies Beyond Ordinary
         </h1>
         <button
-          class="mt-60px text-20px leading-24px font-light border-1 border-white rounded-20px text-white py-15px px-30px uppercase"
+          class="mt-60px text-20px leading-24px font-light border-1 border-white rounded-20px text-white w-179px h-49px uppercase"
         >
           Contact Us
         </button>
@@ -20,6 +20,6 @@
 </template>
 <style lang="scss" scoped>
 .banner {
-  background-image: url('~/assets/images/banner.svg');
+  background-image: url("~/assets/images/banner.svg");
 }
 </style>
