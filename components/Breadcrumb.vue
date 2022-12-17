@@ -1,6 +1,6 @@
 <template>
   <div class="w-full h-240px relative">
-    <img src="~/assets/images/bg-our-team.png" />
+    <img src="~/assets/images/bg-our-team.png" class="w-full h-full" />
     <!-- <img :src="`../assets/images/${imgUrl}.png`" /> -->
     <!-- <img v-if="bgImage" :src="require(`~/assets/images/${bgImage}.png`)" /> -->
     <div
@@ -15,7 +15,7 @@
 const props = defineProps({
   imgUrl: String,
   pageTitle: String,
-});
+})
 </script>
 
 <style lang="scss" scoped>
