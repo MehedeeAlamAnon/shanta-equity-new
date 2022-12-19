@@ -4,7 +4,7 @@
     <!-- <img :src="`../assets/images/${imgUrl}.png`" /> -->
     <!-- <img v-if="bgImage" :src="require(`~/assets/images/${bgImage}.png`)" /> -->
     <div
-      class="absolute top-0 bottom-0 flex w-full h-full breadcrumb-overlay justify-center items-center text-55px font-light text-white"
+      class="absolute top-0 bottom-0 flex w-full h-full breadcrumb-overlay justify-center items-center text-55px font-light text-white uppercase"
     >
       {{ pageTitle }}
     </div>
@@ -15,7 +15,7 @@
 const props = defineProps({
   imgUrl: String,
   pageTitle: String,
-})
+});
 </script>
 
 <style lang="scss" scoped>
