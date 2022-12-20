@@ -33,16 +33,20 @@
           <div class="min-w-201px">
             <ul>
               <li class="footer-nav-item">
-                <NuxtLink class="footer-nav-link">About Us</NuxtLink>
+                <NuxtLink to="/about" class="footer-nav-link"
+                  >About Us</NuxtLink
+                >
               </li>
               <li class="footer-nav-item">
-                <NuxtLink class="footer-nav-link">Team</NuxtLink>
+                <NuxtLink to="/our-team" class="footer-nav-link">Team</NuxtLink>
               </li>
               <li class="footer-nav-item">
-                <NuxtLink class="footer-nav-link">Transactions</NuxtLink>
+                <NuxtLink to="/transactions" class="footer-nav-link"
+                  >Transactions</NuxtLink
+                >
               </li>
               <li class="footer-nav-item">
-                <NuxtLink class="footer-nav-link">Our Services</NuxtLink>
+                <NuxtLink to="/" class="footer-nav-link">Our Services</NuxtLink>
               </li>
               <li class="footer-nav-item">
                 <NuxtLink class="footer-nav-link">Forms</NuxtLink>
@@ -55,20 +59,35 @@
                 <NuxtLink class="footer-nav-link">Background</NuxtLink>
               </li>
               <li class="footer-nav-item">
-                <NuxtLink class="footer-nav-link">Career</NuxtLink>
+                <NuxtLink to="/career" class="footer-nav-link">Career</NuxtLink>
               </li>
               <li class="footer-nav-item">
                 <NuxtLink class="footer-nav-link">Contact</NuxtLink>
               </li>
               <li class="footer-nav-item">
-                <NuxtLink class="footer-nav-link">Insights</NuxtLink>
+                <NuxtLink to="/insights" class="footer-nav-link"
+                  >Insights</NuxtLink
+                >
               </li>
             </ul>
           </div>
         </div>
       </div>
       <div class="mt-42px flex justify-between items-center">
-        <div>Social icons will be added</div>
+        <div>
+          <ul class="flex gap-x-31px">
+            <li>
+              <a href="" target="_blank" class="block"
+                ><img src="~/assets/images/facebook-icon.png" alt="facebook"
+              /></a>
+            </li>
+            <li>
+              <a href="" target="_blank" class="block"
+                ><img src="~/assets/images/linkedin-icon.png" alt="linkedin"
+              /></a>
+            </li>
+          </ul>
+        </div>
         <div class="text-[#979797] text-16px leading-24px font-extrabold">
           &copy; 2022 Shanta Equity
         </div>

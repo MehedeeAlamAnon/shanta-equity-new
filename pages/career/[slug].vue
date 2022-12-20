@@ -213,14 +213,6 @@
                   </div>
                 </div>
               </div>
-              <!-- <div class="ml-31px">
-              <button
-                type="submit"
-                class="w-120px h-44px bg-[#1F3C74] text-white text-15px font-light"
-              >
-                Upload CV
-              </button>
-            </div> -->
             </div>
           </div>
         </div>

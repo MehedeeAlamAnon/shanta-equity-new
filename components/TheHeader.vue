@@ -7,19 +7,27 @@
       <div class="flex justy-end items-center space-x-5">
         <ul class="flex space-x-5">
           <li>
-            <NuxtLink class="uppercase font-light nav-link">About us</NuxtLink>
+            <NuxtLink to="/about" class="uppercase font-light nav-link"
+              >About us</NuxtLink
+            >
           </li>
           <li>
-            <NuxtLink class="uppercase font-light nav-link">Expertise</NuxtLink>
+            <NuxtLink to="/expertise" class="uppercase font-light nav-link"
+              >Expertise</NuxtLink
+            >
           </li>
           <li>
-            <NuxtLink class="uppercase font-light nav-link">Team</NuxtLink>
+            <NuxtLink to="/our-team" class="uppercase font-light nav-link"
+              >Team</NuxtLink
+            >
           </li>
           <li>
-            <NuxtLink class="uppercase font-light nav-link">Insights</NuxtLink>
+            <NuxtLink to="/insights" class="uppercase font-light nav-link"
+              >Insights</NuxtLink
+            >
           </li>
           <li>
-            <NuxtLink class="uppercase font-light nav-link"
+            <NuxtLink to="/transactions" class="uppercase font-light nav-link"
               >Transactions</NuxtLink
             >
           </li>
@@ -57,5 +65,8 @@
   &:focus-visible {
     outline: none;
   }
+}
+.router-link-active.router-link-exact-active {
+  font-weight: 500;
 }
 </style>
