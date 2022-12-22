@@ -1,5 +1,5 @@
 <template>
-  <Breadcrumb imgUrl="bg-our-team" pageTitle="Insights" />
+  <Breadcrumb imgUrl="bg-transactions.png" pageTitle="Insights" />
   <section>
     <div
       class="text-center pt-72px pb-64px border-bottom border-bottom-9px border-[#1F3C74]"

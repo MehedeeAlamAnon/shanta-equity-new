@@ -1,16 +1,19 @@
 <template>
-  <Breadcrumb imgUrl="bg-our-team" pageTitle="Meet The Shanta Equity Team" />
+  <Breadcrumb
+    imgUrl="bg-our-team.png"
+    pageTitle="Meet The Shanta Equity Team"
+  />
   <section
-    class="grid grid-cols-5 w-1535px mx-auto gap-x-60px gap-y-56px pt-100px pb-70px"
+    class="grid grid-cols-5 w-1535px mx-auto gap-x-60px gap-y-56px pt-100px pb-100px"
   >
     <!-- col item start -->
     <div v-for="member in members" :key="member.id">
       <div class="bg-[#D9D9D9] h-339px">
-        <!-- <img
+        <img
           v-if="member.avatar"
-          :src="require(`~/assets/images/members/${member.avatar}`)"
-          alt=""
-        /> -->
+          :src="`/images/members/${member.avatar}`"
+          :alt="member.name"
+        />
       </div>
       <p class="text-20px leading-35px font-light text-justify mt-21px">
         {{ member.name }}

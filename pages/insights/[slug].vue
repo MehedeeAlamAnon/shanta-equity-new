@@ -1,5 +1,5 @@
 <template>
-  <Breadcrumb imgUrl="bg-our-team" pageTitle="Insights" />
+  <Breadcrumb imgUrl="bg-transactions.png" pageTitle="Insights" />
   <section class="pt-79px pb-76px">
     <!-- internal section start -->
     <div class="max-w-1264px mx-auto">

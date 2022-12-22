@@ -1,5 +1,5 @@
 <template>
-  <Breadcrumb imgUrl="bg-our-team" pageTitle="Transactions" />
+  <Breadcrumb imgUrl="bg-transactions.png" pageTitle="Transactions" />
   <section class="py-125px">
     <div class="max-w-1028px mx-auto grid grid-cols-4 gap-40px">
       <!-- col start -->

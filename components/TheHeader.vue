@@ -2,7 +2,9 @@
   <header class="px-32px">
     <nav class="flex justify-between items-center h-74px">
       <div>
-        <img src="~/assets/images/logo.svg" alt="SEL Logo" />
+        <NuxtLink to="/">
+          <img src="~/assets/images/logo.svg" alt="SEL Logo" />
+        </NuxtLink>
       </div>
       <div class="flex justy-end items-center space-x-5">
         <ul class="flex space-x-5">

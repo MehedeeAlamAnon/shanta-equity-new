@@ -1,6 +1,6 @@
 <template>
   <section class="w-full relative h-709px">
-    <img src="~/assets/images/bg-career.png" class="w-full h-full" />
+    <img src="~/assets/images/bg-expertise.png" class="w-full h-full" />
     <div
       class="absolute top-0 bottom-0 flex w-full h-full breadcrumb-overlay justify-center items-center text-55px font-light text-white uppercase"
     >

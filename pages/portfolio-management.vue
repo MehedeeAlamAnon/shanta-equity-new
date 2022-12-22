@@ -1,5 +1,8 @@
 <template>
-  <Breadcrumb imgUrl="bg-our-team" pageTitle="Portfolio Management" />
+  <Breadcrumb
+    imgUrl="bg-portfolio-management.png"
+    pageTitle="Portfolio Management"
+  />
   <section class="pt-81px pb-135px">
     <h2
       class="max-w-1429px mx-auto text-40px leading-65px text-center tracking-wider font-light mb-113px"

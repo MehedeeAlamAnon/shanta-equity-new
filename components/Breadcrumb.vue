@@ -1,6 +1,6 @@
 <template>
   <div class="w-full h-240px relative">
-    <img src="~/assets/images/bg-our-team.png" class="w-full h-full" />
+    <img :src="`/images/${imgUrl}`" class="w-full h-full" />
     <!-- <img :src="`../assets/images/${imgUrl}.png`" /> -->
     <!-- <img v-if="bgImage" :src="require(`~/assets/images/${bgImage}.png`)" /> -->
     <div

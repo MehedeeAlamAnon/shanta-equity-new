@@ -1,5 +1,5 @@
 <template>
-  <Breadcrumb imgUrl="bg-our-team" pageTitle="About SEL" />
+  <Breadcrumb imgUrl="bg-about-sel.png" pageTitle="About SEL" />
   <section class="text-center pt-79px">
     <h2
       class="text-40px leading-45px font-light uppercase text-[#1F3C74] mb-53px"
