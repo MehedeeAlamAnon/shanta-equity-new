@@ -1,22 +1,22 @@
 <template>
   <section>
-    <div class="flex items-center">
+    <div class="flex items-center flex-col md:flex-row">
       <div
-        class="w-[43.65%] intro-img bg-cover bg-center bg-no-repeat min-h-425px"
+        class="w-full md:w-[43.65%] intro-img bg-cover bg-center bg-no-repeat min-h-xs sm:min-h-425px"
       >
         <div
-          class="intro-img-overlay w-full h-425px text-50px leading-[1.25] text-white uppercase flex text-center justify-center items-center"
+          class="intro-img-overlay w-full min-h-xs text-36px sm:(text-50px min-h-425px) leading-snug text-white uppercase flex text-center justify-center items-center px-4"
         >
           Shanta Equity Limited
         </div>
       </div>
-      <div class="w-[56.35%] p-66px">
-        <p class="mb-8">
+      <div class="w-full md:w-[56.35%] p-30px lg:p-40px xl:p-66px">
+        <p class="mb-4 xl:mb-8">
           Shanta Equity Limited is an innovative all encompassing merchant bank
           offering a range of investment banking, corporate advisory and
           portfolio management solutions.
         </p>
-        <p class="mb-8">
+        <p class="mb-4 xl:mb-8">
           We draw on the expertise of the best minds in the country to provide
           our clients with customized investment banking and corporate advisory
           services

@@ -1,7 +1,7 @@
 <template>
   <footer class="bg-[#f8f8f8]">
     <div class="container mx-auto px-4 py-53px">
-      <div class="grid grid-cols-2">
+      <div class="grid grid-cols-1 lg:(grid-cols-2)">
         <div>
           <img
             src="~/assets/images/logo.svg"
@@ -29,8 +29,8 @@
             </p>
           </address>
         </div>
-        <div class="flex justify-evenly pt-34px">
-          <div class="min-w-201px">
+        <div class="flex justify-start pt-34px lg:justify-evenly">
+          <div class="min-w-1/2 lg:min-w-201px">
             <ul>
               <li class="footer-nav-item">
                 <NuxtLink to="/about" class="footer-nav-link"
@@ -53,7 +53,7 @@
               </li>
             </ul>
           </div>
-          <div class="min-w-201px">
+          <div class="min-w-1/2 lg:min-w-201px">
             <ul>
               <li class="footer-nav-item">
                 <NuxtLink class="footer-nav-link">Background</NuxtLink>
@@ -75,14 +75,20 @@
       </div>
       <div class="mt-42px flex justify-between items-center">
         <div>
-          <ul class="flex gap-x-31px">
+          <ul class="flex gap-x-8px sm:gap-x-31px">
             <li>
-              <a href="" target="_blank" class="block"
+              <a
+                href="https://www.facebook.com/shantaequity/"
+                target="_blank"
+                class="block"
                 ><img src="~/assets/images/facebook-icon.png" alt="facebook"
               /></a>
             </li>
             <li>
-              <a href="" target="_blank" class="block"
+              <a
+                href="https://www.linkedin.com/company/shantaequity/"
+                target="_blank"
+                class="block"
                 ><img src="~/assets/images/linkedin-icon.png" alt="linkedin"
               /></a>
             </li>

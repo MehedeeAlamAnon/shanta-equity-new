@@ -1,28 +1,40 @@
 <template>
-  <section class="portfolio-management h-383px mb-200px">
-    <div class="portfolio-management-overlay h-full grid grid-cols-2">
-      <div class="ml-160px text-white max-w-613px">
-        <h3 class="text-45px leading-75px mb-61px mt-41px font-bold">
+  <section
+    class="portfolio-management mb-200px bg-no-repeat bg-cover bg-center h-570px sm:(h-500px) md:(h-560px) 2xl:(h-383px)"
+  >
+    <div
+      class="portfolio-management-overlay h-full grid grid-cols-1 2xl:(grid-cols-2)"
+    >
+      <div
+        class="w-[95%] px-4 md:(w-730px) lg:(w-778px) mx-auto text-white w-full 2xl:(w-613px ml-160px)"
+      >
+        <h3
+          class="text-36px sm:(text-45px leading-75px) mb-36px mt-41px font-bold 2xl:(mb-61px)"
+        >
           Portfolio Management
         </h3>
-        <h2 class="text-85px leading-75px mb-56px font-bold">
+        <h2
+          class="text-46px leading-tight mb-40px sm:(text-85px leading-75px mb-56px) font-bold"
+        >
           Don’t delay <br />
           Invest today.
         </h2>
       </div>
       <div
-        class="w-778px h-314px bg-white pt-25px pl-66px pr-83px pb-32.73px box-shadow mt-184px ml-auto mr-142px"
+        class="w-[95%] p-8 text-content mx-auto bg-white box-shadow md:(w-730px pt-32.73px pl-66px pr-83px pb-32.73px) lg:(w-778px) 2xl:(w-778px mt-184px mr-142px ml-auto)"
       >
-        <div class="flex items-center">
+        <div class="flex flex-col items-center gap-y-8 sm:(flex-row)">
           <button
             class="text-20px leading-24px font-light border-1 border-[#1F3C74] rounded-20px text-[#1F3C74] capitalize px-19px h-49px"
           >
             Create Account
           </button>
-          <div class="line-divider mx-80px"></div>
+          <div
+            class="line-divider mx-0 sm:(mx-30px block) md:(mx-55px) lg:(mx-80px)"
+          ></div>
           <form class="text-center w-290px">
             <h3
-              class="text-35px leading-75px font-bold text-[#1F3C74] uppercase"
+              class="text-30px mb-4 leading-normal font-bold text-[#1F3C74] uppercase lg:(text-35px leading-75px)"
             >
               Get a Call Back
             </h3>
@@ -84,6 +96,20 @@
     width: 3px;
     height: 185px;
     background-color: #1f3c74;
+  }
+}
+
+@media (min-width: 1536px) and (max-width: 1680px) {
+  .text-content {
+    margin-left: -70px;
+  }
+}
+@media (max-width: 639px) {
+  .portfolio-management {
+    .line-divider {
+      width: 185px;
+      height: 3px;
+    }
   }
 }
 </style>
