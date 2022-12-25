@@ -6,8 +6,8 @@
           <img src="~/assets/images/logo.svg" alt="SEL Logo" />
         </NuxtLink>
       </div>
-      <div class="hidden">
-        <div class="flex justy-end items-center space-x-20 h-full">
+      <div class="hidden 2xl:(block)">
+        <div class="flex justy-end items-center space-x-16 h-full">
           <ul class="flex space-x-32px h-full">
             <li>
               <NuxtLink to="/about" class="uppercase font-light nav-link h-full"

@@ -25,7 +25,7 @@
       >
         <div class="flex flex-col items-center gap-y-8 sm:(flex-row)">
           <button
-            class="text-20px leading-24px font-light border-1 border-[#1F3C74] rounded-20px text-[#1F3C74] capitalize px-19px h-49px"
+            class="text-20px leading-24px font-light border-1 border-[#1F3C74] rounded-20px text-[#1F3C74] capitalize px-19px h-49px hover:bg-[#1F3C74] hover:text-white"
           >
             Create Account
           </button>
@@ -42,21 +42,21 @@
               <input
                 type="text"
                 placeholder="Name"
-                class="border-1 border-[#1F3C74] h-28.27px pl-13.97px w-full max-w-279.46px mb-19.92px font-light text-15px"
+                class="border-1 border-[#1F3C74] h-28.27px pl-13.97px w-full max-w-279.46px mb-19.92px font-light text-15px focus:outline-[#1F3C74]"
               />
             </div>
             <div>
               <input
                 type="text"
                 placeholder="Phone"
-                class="border-1 border-[#1F3C74] h-28.27px pl-13.97px w-full max-w-279.46px mb-19.92px font-light text-15px"
+                class="border-1 border-[#1F3C74] h-28.27px pl-13.97px w-full max-w-279.46px mb-19.92px font-light text-15px focus:outline-[#1F3C74]"
               />
             </div>
             <div>
               <input
                 type="text"
                 placeholder="Email"
-                class="border-1 border-[#1F3C74] h-28.27px pl-13.97px w-full max-w-279.46px mb-15.37px font-light text-15px"
+                class="border-1 border-[#1F3C74] h-28.27px pl-13.97px w-full max-w-279.46px mb-15.37px font-light text-15px focus:outline-[#1F3C74]"
               />
             </div>
             <div>

@@ -2,12 +2,12 @@
   <Breadcrumb imgUrl="bg-about-sel.png" pageTitle="About SEL" />
   <section class="text-center pt-79px">
     <h2
-      class="text-40px leading-45px font-light uppercase text-[#1F3C74] mb-53px"
+      class="text-34px sm:(text-40px) leading-45px font-light uppercase text-[#1F3C74] mb-53px"
     >
       Our Background
     </h2>
     <div
-      class="max-w-992px mx-auto text-14px font-light leading-35px text-justify"
+      class="max-w-full px-4 lg:(max-w-992px px-0) mx-auto text-14px font-light leading-35px text-justify"
     >
       <p class="mb-28px">
         Shanta Group started its journey in 1988, and had since become one of
@@ -46,96 +46,67 @@
     >
       Core Values
     </h2>
-    <div class="max-w-1112px mx-auto grid grid-cols-3 gap-x-85px">
+    <div
+      class="max-w-full px-4 mx-auto grid sm:(grid-cols-2 gap-x-40px) lg:(grid-cols-3) xl:(max-w-1112px px-0 gap-x-85px)"
+    >
       <!-- col item start -->
-      <div class="mb-47px">
+      <div
+        class="mb-30px sm:(mb-47px) transition hover:bg-[#F1F8FF]"
+        v-for="value in values"
+        :key="value.id"
+      >
         <h3
           class="h-132px bg-[#1F3C74] w-full text-25px text-center flex justify-center items-center text-white"
         >
-          Corporate
+          {{ value.title }}
         </h3>
         <p
-          class="text-25px leading-30px font-light min-h-205px px-31px flex justify-center items-center text-justify"
+          class="text-20px leading-30px font-light py-4 px-31px flex justify-center items-center text-justify sm:(min-h-205px) xl:(text-25px leading-30px)"
         >
-          Put the client’s interest first and act for their best interest within
-          the confines of the law
-        </p>
-      </div>
-      <!-- col item end -->
-      <!-- col item start -->
-      <div class="mb-47px">
-        <h3
-          class="h-132px bg-[#1F3C74] w-full text-25px text-center flex justify-center items-center text-white"
-        >
-          Competence
-        </h3>
-        <p
-          class="text-25px leading-30px font-light min-h-205px px-31px flex justify-center items-center text-justify"
-        >
-          Keep up-to-date with the latest regulations and best practices to
-          always provide the best quality service
-        </p>
-      </div>
-      <!-- col item end -->
-      <!-- col item start -->
-      <div class="mb-47px">
-        <h3
-          class="h-132px bg-[#1F3C74] w-full text-25px text-center flex justify-center items-center text-white"
-        >
-          Diligence
-        </h3>
-        <p
-          class="text-25px leading-30px font-light min-h-205px px-31px flex justify-center items-center text-justify"
-        >
-          Scrutinize for any inaccuracies and ensure the quality of our work
-          meets the highest standards
-        </p>
-      </div>
-      <!-- col item end -->
-      <!-- col item start -->
-      <div class="mb-47px">
-        <h3
-          class="h-132px bg-[#1F3C74] w-full text-25px text-center flex justify-center items-center text-white"
-        >
-          Fairness
-        </h3>
-        <p
-          class="text-25px leading-30px font-light min-h-205px px-31px flex justify-center items-center text-justify"
-        >
-          Treat all clients in a fair and equitable manner without any favors or
-          prejudice
-        </p>
-      </div>
-      <!-- col item end -->
-      <!-- col item start -->
-      <div class="mb-47px">
-        <h3
-          class="h-132px bg-[#1F3C74] w-full text-25px text-center flex justify-center items-center text-white"
-        >
-          Integrity
-        </h3>
-        <p
-          class="text-25px leading-30px font-light min-h-205px px-31px flex justify-center items-center text-justify"
-        >
-          Uphold the highest legal and ethical standards in all our activities
-        </p>
-      </div>
-      <!-- col item end -->
-      <!-- col item start -->
-      <div class="mb-47px">
-        <h3
-          class="h-132px bg-[#1F3C74] w-full text-25px text-center flex justify-center items-center text-white"
-        >
-          Commitment
-        </h3>
-        <p
-          class="text-25px leading-30px font-light min-h-205px px-31px flex justify-center items-center text-justify"
-        >
-          Plan and execute all our activities in alignment with the vision of
-          the company’s leadership
+          {{ value.description }}
         </p>
       </div>
       <!-- col item end -->
     </div>
   </section>
 </template>
+<script setup>
+const values = [
+  {
+    id: 1,
+    title: "Corporate",
+    description:
+      "Put the client’s interest first and act for their best interest within the confines of the law",
+  },
+  {
+    id: 2,
+    title: "Competence",
+    description:
+      "Keep up-to-date with the latest regulations and best practices to always provide the best quality service",
+  },
+  {
+    id: 3,
+    title: "Diligence",
+    description:
+      "Scrutinize for any inaccuracies and ensure the quality of our work meets the highest standards",
+  },
+  {
+    id: 4,
+    title: "Fairness",
+    description:
+      "Treat all clients in a fair and equitable manner without any favors or prejudice",
+  },
+  {
+    id: 5,
+    title: "Integrity",
+    description:
+      "Uphold the highest legal and ethical standards in all our activities",
+  },
+  {
+    id: 6,
+    title: "Commitment",
+    description:
+      "Plan and execute all our activities in alignment with the vision of the company’s leadership",
+  },
+];
+</script>

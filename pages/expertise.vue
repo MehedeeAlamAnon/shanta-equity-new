@@ -2,13 +2,13 @@
   <section class="w-full relative h-709px">
     <img src="~/assets/images/bg-expertise.png" class="w-full h-full" />
     <div
-      class="absolute top-0 bottom-0 flex w-full h-full breadcrumb-overlay justify-center items-center text-55px font-light text-white uppercase"
+      class="absolute top-0 bottom-0 flex w-full px-4 h-full breadcrumb-overlay justify-center items-center text-55px leading-tight font-light text-white uppercase text-center"
     >
       A Leading-Edge Financial Services Company
     </div>
   </section>
   <section
-    class="max-w-998px mx-auto font-light py-75px text-30px leading-65px text-center"
+    class="max-w-998px px-4 mx-auto font-light py-75px text-20px sm:text-30px leading-65px text-center"
   >
     Offering a range of investment banking and corporate advisory solutions.We
     believe in going the extra mile for our clients and offering them the best
@@ -16,19 +16,19 @@
   </section>
   <section class="mb-130px">
     <!-- internal section start -->
-    <div class="max-w-1258px mx-auto">
+    <div class="max-w-full px-4 xl:(max-w-1258px px-0) mx-auto">
       <h1 class="text-40px font-medium sec-title text-center mb-100px">
         <span class="sec-title-text">Fund Raising </span>
       </h1>
       <!-- inner internal wrapper start -->
       <div class="max-w-1207px mx-auto mb-95px">
         <h2
-          class="text-35px leading-35px text-[#1F3C74] font-light border-bottom border-bottom-1px border-[#1F3C74] pb-31px mb-62px"
+          class="text-28px sm:text-35px leading-35px text-[#1F3C74] font-light border-bottom border-bottom-1px border-[#1F3C74] pb-31px mb-62px"
         >
           Equity Financing
         </h2>
         <div
-          class="max-w-1119px mx-auto grid grid-cols-3 gap-x-100px gap-y-69px px-34px"
+          class="max-w-1119px mx-auto grid gap-y-40px sm:(grid-cols-2 gap-x-30px gap-y-60px) lg:(grid-cols-3 gap-x-30px) 2xl:(gap-x-100px gap-y-69px px-34px)"
         >
           <!-- col start -->
           <div>
@@ -37,7 +37,7 @@
               alt="financing-1"
               class="w-full"
             />
-            <h3 class="text-25px leading-36px text-center mt-36px">
+            <h3 class="text-20px sm:text-25px leading-36px text-center mt-36px">
               Initial Public Offering
             </h3>
           </div>
@@ -49,7 +49,7 @@
               alt="financing-2"
               class="w-full"
             />
-            <h3 class="text-25px leading-36px text-center mt-36px">
+            <h3 class="text-20px sm:text-25px leading-36px text-center mt-36px">
               Rights Offering
             </h3>
           </div>
@@ -61,7 +61,7 @@
               alt="financing-3"
               class="w-full"
             />
-            <h3 class="text-25px leading-36px text-center mt-36px">
+            <h3 class="text-20px sm:text-25px leading-36px text-center mt-36px">
               Private Placement
             </h3>
           </div>
@@ -73,7 +73,7 @@
               alt="financing-4"
               class="w-full"
             />
-            <h3 class="text-25px leading-36px text-center mt-36px">
+            <h3 class="text-20px sm:text-25px leading-36px text-center mt-36px">
               Listing in SME Platforms
             </h3>
           </div>
@@ -85,7 +85,7 @@
               alt="financing-5"
               class="w-full"
             />
-            <h3 class="text-25px leading-36px text-center mt-36px">
+            <h3 class="text-20px sm:text-25px leading-36px text-center mt-36px">
               Underwriting
             </h3>
           </div>
@@ -97,7 +97,7 @@
               alt="financing-6"
               class="w-full"
             />
-            <h3 class="text-25px leading-36px text-center mt-36px">
+            <h3 class="text-20px sm:text-25px leading-36px text-center mt-36px">
               Private Equity/ Venture Capital
             </h3>
           </div>
@@ -108,12 +108,12 @@
       <!-- inner internal wrapper start -->
       <div class="max-w-1207px mx-auto mb-100px">
         <h2
-          class="text-35px leading-35px text-[#1F3C74] font-light border-bottom border-bottom-1px border-[#1F3C74] pb-31px mb-62px"
+          class="text-28px sm:text-35px leading-35px text-[#1F3C74] font-light border-bottom border-bottom-1px border-[#1F3C74] pb-31px mb-62px"
         >
           Debt Financing
         </h2>
         <div
-          class="max-w-702px mx-auto grid grid-cols-2 gap-x-100px gap-y-69px px-34px"
+          class="max-w-full mx-auto grid gap-y-40px sm:(grid-cols-2 gap-x-30px gap-y-60px) lg:(max-w-702px gap-x-30px) 2xl:(gap-x-100px gap-y-69px px-34px)"
         >
           <!-- col start -->
           <div>
@@ -122,7 +122,7 @@
               alt="debt-financing-1"
               class="w-full"
             />
-            <h3 class="text-25px leading-36px text-center mt-36px">
+            <h3 class="text-20px sm:text-25px leading-36px text-center mt-36px">
               Preference Shares
             </h3>
           </div>
@@ -134,7 +134,7 @@
               alt="debt-financing-2"
               class="w-full"
             />
-            <h3 class="text-25px leading-36px text-center mt-36px">
+            <h3 class="text-20px sm:text-25px leading-36px text-center mt-36px">
               Bond Issuance
             </h3>
           </div>
@@ -146,7 +146,7 @@
               alt="debt-financing-3"
               class="w-full"
             />
-            <h3 class="text-25px leading-36px text-center mt-36px">
+            <h3 class="text-20px sm:text-25px leading-36px text-center mt-36px">
               Debt Restructuring
             </h3>
           </div>
@@ -158,7 +158,7 @@
               alt="debt-financing-4"
               class="w-full"
             />
-            <h3 class="text-25px leading-36px text-center mt-36px">
+            <h3 class="text-20px sm:text-25px leading-36px text-center mt-36px">
               Project Financing
             </h3>
           </div>
@@ -171,14 +171,14 @@
   </section>
   <section class="mb-130px">
     <!-- internal section start -->
-    <div class="max-w-1258px mx-auto mb-100px">
+    <div class="max-w-full px-4 xl:(max-w-1258px px-0) mx-auto mb-100px">
       <h1 class="text-40px font-medium sec-title text-center mb-70px">
         <span class="sec-title-text">Corporate Advisory</span>
       </h1>
       <!-- inner internal wrapper start -->
       <div class="max-w-1219px mx-auto mb-95px">
         <p
-          class="text-25px leading-45px tracking-wider text-center mb-70px font-light"
+          class="text-20px sm:text-25px leading-45px tracking-wider text-center mb-70px font-light"
         >
           With our corporate advisory services, you will comprehend the company
           structuring alternatives available to you and increase shareholder
@@ -188,73 +188,29 @@
           of global and local markets.
         </p>
         <!-- grid start -->
-        <div
-          class="max-w-1037px mx-auto grid grid-cols-3 gap-x-50px gap-y-79px mb-79px"
-        >
-          <!-- col start -->
-          <div>
-            <img
-              src="~/assets/images/equity_financing/advisory-1.png"
-              alt="Equity Valuation"
-              class="w-full"
-            />
-            <h3 class="text-25px leading-36px text-center mt-36px">
-              Equity Valuation
-            </h3>
+        <div class="max-w-1037px mx-auto px-4 xl:(px-0)">
+          <div
+            class="row flex flex-wrap justify-center mb-79px gap-y-40px sm:(-ml-30px -mr-30px) lg:(gap-y-60px) 2xl:(-ml-80px -mr-80px gap-y-79px) box-border"
+          >
+            <!-- col start -->
+            <div
+              class="item px-15px sm:(w-1/2 px-15px) lg:(w-1/3) 2xl:(px-40px)"
+              v-for="item in advisorys"
+              :key="item.id"
+            >
+              <img
+                :src="`/images/advisory/${item.img}`"
+                :alt="item.title"
+                class="w-full"
+              />
+              <h3
+                class="text-20px sm:text-25px leading-36px text-center mt-36px"
+              >
+                {{ item.title }}
+              </h3>
+            </div>
+            <!-- col end -->
           </div>
-          <!-- col end -->
-          <!-- col start -->
-          <div>
-            <img
-              src="~/assets/images/equity_financing/advisory-2.png"
-              alt="Mergers & Acquisitions"
-              class="w-full"
-            />
-            <h3 class="text-25px leading-36px text-center mt-36px">
-              Mergers & Acquisitions
-            </h3>
-          </div>
-          <!-- col end -->
-          <!-- col start -->
-          <div>
-            <img
-              src="~/assets/images/equity_financing/advisory-3.png"
-              alt="Trustee Services"
-              class="w-full"
-            />
-            <h3 class="text-25px leading-36px text-center mt-36px">
-              Trustee Services
-            </h3>
-          </div>
-          <!-- col end -->
-        </div>
-        <!-- grid end -->
-        <!-- grid start -->
-        <div class="max-w-720px mx-auto grid grid-cols-2 gap-x-50px gap-y-79px">
-          <!-- col start -->
-          <div>
-            <img
-              src="~/assets/images/equity_financing/advisory-4.png"
-              alt="Substantial Share Acquisition"
-              class="w-full"
-            />
-            <h3 class="text-25px leading-36px text-center mt-36px">
-              Substantial Share Acquisition
-            </h3>
-          </div>
-          <!-- col end -->
-          <!-- col start -->
-          <div>
-            <img
-              src="~/assets/images/equity_financing/advisory-5.png"
-              alt="Pre-IPO Advisory"
-              class="w-full"
-            />
-            <h3 class="text-25px leading-36px text-center mt-36px">
-              Pre-IPO Advisory
-            </h3>
-          </div>
-          <!-- col end -->
         </div>
         <!-- grid end -->
       </div>
@@ -263,14 +219,14 @@
   </section>
   <section class="mb-130px">
     <!-- internal section start -->
-    <div class="max-w-1258px mx-auto">
+    <div class="max-w-full px-4 xl:(max-w-1258px px-0) mx-auto">
       <h1 class="text-40px font-medium sec-title text-center mb-70px">
         <span class="sec-title-text">Portfolio Management</span>
       </h1>
       <!-- inner internal wrapper start -->
       <div class="max-w-1219px mx-auto mb-95px">
         <p
-          class="text-25px leading-45px tracking-wider text-center mb-70px font-light"
+          class="text-20px sm:text-25px leading-45px tracking-wider text-center mb-70px font-light"
         >
           We provide discretionary and non- discretionary portfolio management
           services that are tailored to the unique needs of our clients. In case
@@ -278,7 +234,9 @@
           financing.
         </p>
         <!-- grid start -->
-        <div class="max-w-720px mx-auto grid grid-cols-2 gap-x-50px gap-y-79px">
+        <div
+          class="max-w-720px mx-auto grid sm:(grid-cols-2) gap-x-30px gap-y-40px xl:(gap-x-50px gap-y-79px)"
+        >
           <!-- col start -->
           <div>
             <img
@@ -287,7 +245,7 @@
               class="w-full"
             />
             <h3
-              class="text-30px leading-36px text-center mt-36px text-[#1F3C74]"
+              class="text-20px sm:text-30px leading-36px text-center mt-36px text-[#1F3C74]"
             >
               Discretionary
             </h3>
@@ -301,7 +259,7 @@
               class="w-full"
             />
             <h3
-              class="text-30px leading-36px text-center mt-36px text-[#1F3C74]"
+              class="text-20px sm:text-30px leading-36px text-center mt-36px text-[#1F3C74]"
             >
               Non-Discretionary
             </h3>
@@ -315,7 +273,35 @@
   </section>
 </template>
 
-<script setup></script>
+<script setup>
+const advisorys = [
+  {
+    id: 1,
+    img: "advisory-1.png",
+    title: "Equity Valuation",
+  },
+  {
+    id: 2,
+    img: "advisory-2.png",
+    title: "Mergers & Acquisitions",
+  },
+  {
+    id: 3,
+    img: "advisory-3.png",
+    title: "Trustee Services",
+  },
+  {
+    id: 4,
+    img: "advisory-4.png",
+    title: "Substantial Share Acquisition",
+  },
+  {
+    id: 5,
+    img: "advisory-5.png",
+    title: "Pre-IPO Advisory",
+  },
+];
+</script>
 
 <style lang="scss" scoped>
 .breadcrumb-overlay {
@@ -340,9 +326,31 @@
     transform: translateY(-50%);
     z-index: -1;
   }
-  .sec-title-text {
+  &-text {
     background-color: #fff;
     padding: 17px 29px;
+  }
+}
+.item {
+  flex: 0 0 auto;
+}
+@media (max-width: 640px) {
+  .sec-title {
+    font-size: 36px;
+    &-text {
+      padding: 10px 15px;
+      max-width: 270px;
+      display: inline-block;
+    }
+  }
+}
+@media (max-width: 375px) {
+  .sec-title {
+    font-size: 32px;
+    &-text {
+      padding: 10px;
+      max-width: 220px;
+    }
   }
 }
 </style>
