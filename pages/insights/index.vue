@@ -2,7 +2,7 @@
   <Breadcrumb imgUrl="bg-transactions.png" pageTitle="Insights" />
   <section>
     <div
-      class="text-center pt-72px pb-64px border-bottom border-bottom-9px border-[#1F3C74]"
+      class="text-center pt-72px pb-64px border-bottom border-bottom-9px border-[#1F3C74] px-4"
     >
       <span class="text-32px leading-35px text-[#1F3C74] font-light"
         >Uncover the trends of
@@ -12,7 +12,7 @@
       >
     </div>
   </section>
-  <section class="pt-91px pb-60px bg-[#F1F8FF]">
+  <section class="pt-70px lg:(pt-91px) pb-60px bg-[#F1F8FF] px-4 xl:(px-0)">
     <!-- internal section start -->
     <div class="max-w-1207px mx-auto">
       <h2
@@ -20,120 +20,36 @@
       >
         Latest
       </h2>
-      <div class="w-full mx-auto grid grid-cols-3 gap-x-52px gap-y-48px">
+      <div
+        class="w-full mx-auto grid gap-30px sm:(grid-cols-2) xl:(grid-cols-3 gap-x-52px gap-y-48px)"
+      >
         <!-- col start -->
-        <div class="bg-white">
-          <img src="~/assets/images/insights/image-1.png" alt="insight 1" />
+        <NuxtLink
+          v-for="insight in insights"
+          class="bg-white"
+          :to="`/insights/${insight.id}`"
+        >
+          <img
+            :src="`/images/insights/${insight.imgCover}`"
+            alt="insight image"
+            class="w-full"
+          />
           <div class="py-17px px-25px">
             <h3
-              class="text-20px leading-35px text-[#1F3C74] mb-38px font-medium"
+              class="text-20px leading-35px text-[#1F3C74] mb-16px 2xl:(mb-38px) font-medium"
             >
-              How the dollar crisis is increasing burden for international
-              students
+              {{ insight.title }}
             </h3>
-            <p class="text-15px leading-35px font-light mb-38px capitalize">
-              Zinedine Zidan
+            <p
+              class="text-15px leading-35px font-light mb-16px 2xl:(mb-38px) capitalize"
+            >
+              {{ insight.author }}
             </p>
             <p class="text-15px leading-35px font-light capitalize">
-              4 Minute Read
+              {{ insight.time }} Read
             </p>
           </div>
-        </div>
-        <!-- col end -->
-        <!-- col start -->
-        <div class="bg-white">
-          <img src="~/assets/images/insights/image-2.png" alt="insight 2" />
-          <div class="py-17px px-25px">
-            <h3
-              class="text-20px leading-35px text-[#1F3C74] mb-38px font-medium"
-            >
-              How the dollar crisis is increasing burden for international
-              students
-            </h3>
-            <p class="text-15px leading-35px font-light mb-38px capitalize">
-              Zinedine Zidan
-            </p>
-            <p class="text-15px leading-35px font-light capitalize">
-              4 Minute Read
-            </p>
-          </div>
-        </div>
-        <!-- col end -->
-        <!-- col start -->
-        <div class="bg-white">
-          <img src="~/assets/images/insights/image-3.png" alt="insight 3" />
-          <div class="py-17px px-25px">
-            <h3
-              class="text-20px leading-35px text-[#1F3C74] mb-38px font-medium"
-            >
-              How the dollar crisis is increasing burden for international
-              students
-            </h3>
-            <p class="text-15px leading-35px font-light mb-38px capitalize">
-              Zinedine Zidan
-            </p>
-            <p class="text-15px leading-35px font-light capitalize">
-              4 Minute Read
-            </p>
-          </div>
-        </div>
-        <!-- col end -->
-        <!-- col start -->
-        <div class="bg-white">
-          <img src="~/assets/images/insights/image-4.png" alt="insight 4" />
-          <div class="py-17px px-25px">
-            <h3
-              class="text-20px leading-35px text-[#1F3C74] mb-38px font-medium"
-            >
-              How the dollar crisis is increasing burden for international
-              students
-            </h3>
-            <p class="text-15px leading-35px font-light mb-38px capitalize">
-              Zinedine Zidan
-            </p>
-            <p class="text-15px leading-35px font-light capitalize">
-              4 Minute Read
-            </p>
-          </div>
-        </div>
-        <!-- col end -->
-        <!-- col start -->
-        <div class="bg-white">
-          <img src="~/assets/images/insights/image-5.png" alt="insight 5" />
-          <div class="py-17px px-25px">
-            <h3
-              class="text-20px leading-35px text-[#1F3C74] mb-38px font-medium"
-            >
-              How the dollar crisis is increasing burden for international
-              students
-            </h3>
-            <p class="text-15px leading-35px font-light mb-38px capitalize">
-              Zinedine Zidan
-            </p>
-            <p class="text-15px leading-35px font-light capitalize">
-              4 Minute Read
-            </p>
-          </div>
-        </div>
-        <!-- col end -->
-        <!-- col start -->
-        <div class="bg-white">
-          <img src="~/assets/images/insights/image-6.png" alt="insight 6" />
-          <div class="py-17px px-25px">
-            <h3
-              class="text-20px leading-35px text-[#1F3C74] mb-38px font-medium"
-            >
-              How the dollar crisis is increasing burden for international
-              students
-            </h3>
-            <p class="text-15px leading-35px font-light mb-38px capitalize">
-              Zinedine Zidan
-            </p>
-            <p class="text-15px leading-35px font-light capitalize">
-              4 Minute Read
-            </p>
-          </div>
-        </div>
+        </NuxtLink>
         <!-- col end -->
       </div>
     </div>
@@ -156,7 +72,9 @@
   <SubscribeSection />
 </template>
 
-<script setup></script>
+<script setup>
+import insights from "@/assets/data/insights.js";
+</script>
 <style lang="scss" scoped>
 .subscribe-input {
   &::placeholder {

@@ -8,20 +8,22 @@
     </div>
   </section>
   <section
-    class="max-w-998px px-4 mx-auto font-light py-75px text-20px sm:text-30px leading-65px text-center"
+    class="max-w-998px px-4 mx-auto font-light py-75px text-20px leading-snug sm:(text-30px leading-65px) text-center"
   >
     Offering a range of investment banking and corporate advisory solutions.We
     believe in going the extra mile for our clients and offering them the best
     possible services to maximize value
   </section>
-  <section class="mb-130px">
+  <section class="mb-60px xl:(mb-130px)">
     <!-- internal section start -->
     <div class="max-w-full px-4 xl:(max-w-1258px px-0) mx-auto">
-      <h1 class="text-40px font-medium sec-title text-center mb-100px">
+      <h1
+        class="text-40px font-medium sec-title text-center mb-60px xl:(mb-100px)"
+      >
         <span class="sec-title-text">Fund Raising </span>
       </h1>
       <!-- inner internal wrapper start -->
-      <div class="max-w-1207px mx-auto mb-95px">
+      <div class="max-w-1207px mx-auto mb-60px xl:(mb-95px)">
         <h2
           class="text-28px sm:text-35px leading-35px text-[#1F3C74] font-light border-bottom border-bottom-1px border-[#1F3C74] pb-31px mb-62px"
         >
@@ -97,7 +99,9 @@
               alt="financing-6"
               class="w-full"
             />
-            <h3 class="text-20px sm:text-25px leading-36px text-center mt-36px">
+            <h3
+              class="text-20px leading-snug sm:(text-25px leading-36px) text-center mt-36px"
+            >
               Private Equity/ Venture Capital
             </h3>
           </div>
@@ -169,7 +173,7 @@
     </div>
     <!-- internal section end -->
   </section>
-  <section class="mb-130px">
+  <section class="mb-60px xl:(mb-130px)">
     <!-- internal section start -->
     <div class="max-w-full px-4 xl:(max-w-1258px px-0) mx-auto mb-100px">
       <h1 class="text-40px font-medium sec-title text-center mb-70px">
@@ -178,7 +182,7 @@
       <!-- inner internal wrapper start -->
       <div class="max-w-1219px mx-auto mb-95px">
         <p
-          class="text-20px sm:text-25px leading-45px tracking-wider text-center mb-70px font-light"
+          class="text-20px leading-snug sm:(text-25px leading-45px) tracking-wider text-center mb-70px font-light"
         >
           With our corporate advisory services, you will comprehend the company
           structuring alternatives available to you and increase shareholder
@@ -204,7 +208,7 @@
                 class="w-full"
               />
               <h3
-                class="text-20px sm:text-25px leading-36px text-center mt-36px"
+                class="text-20px leading-snug sm:(text-25px leading-36px) text-center mt-36px"
               >
                 {{ item.title }}
               </h3>
@@ -217,16 +221,18 @@
     </div>
     <!-- internal section end -->
   </section>
-  <section class="mb-130px">
+  <section class="mb-60px xl:(mb-130px)">
     <!-- internal section start -->
     <div class="max-w-full px-4 xl:(max-w-1258px px-0) mx-auto">
-      <h1 class="text-40px font-medium sec-title text-center mb-70px">
+      <h1
+        class="text-40px font-medium sec-title text-center mb-60px xl:(mb-70px)"
+      >
         <span class="sec-title-text">Portfolio Management</span>
       </h1>
       <!-- inner internal wrapper start -->
       <div class="max-w-1219px mx-auto mb-95px">
         <p
-          class="text-20px sm:text-25px leading-45px tracking-wider text-center mb-70px font-light"
+          class="text-20px leading-snug sm:(text-25px leading-45px) tracking-wider text-center mb-70px font-light"
         >
           We provide discretionary and non- discretionary portfolio management
           services that are tailored to the unique needs of our clients. In case

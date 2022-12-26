@@ -1,7 +1,7 @@
 <template>
   <section class="bg-[#1F3C74] py-125px">
-    <div class="max-w-1207px mx-auto">
-      <div class="grid grid-cols-2 gap-x-63px gap-y-30px">
+    <div class="px-4 max-w-1207px mx-auto xl:(px-0)">
+      <div class="grid gap-y-40px md:(grid-cols-2 gap-x-63px gap-y-30px)">
         <form action="">
           <input
             type="text"
