@@ -26,7 +26,7 @@
         <!-- col start -->
         <NuxtLink
           v-for="insight in insights"
-          class="bg-white"
+          class="bg-white insight-item"
           :to="`/insights/${insight.id}`"
         >
           <img
@@ -83,6 +83,23 @@ import insights from "@/assets/data/insights.js";
   &:focus,
   &:focus-within {
     outline: 0;
+  }
+}
+.insight-item {
+  position: relative;
+  &::after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.3);
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: 0.3s;
+  }
+  &:hover::after {
+    opacity: 1;
   }
 }
 </style>

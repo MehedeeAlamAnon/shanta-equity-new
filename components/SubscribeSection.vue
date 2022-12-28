@@ -1,5 +1,5 @@
 <template>
-  <section class="bg-[#1F3C74] py-125px">
+  <section class="bg-[#1F3C74] pt-80px pb-60px sm:(py-80px) 2xl:(py-125px)">
     <div class="px-4 max-w-1207px mx-auto xl:(px-0)">
       <div class="grid gap-y-40px md:(grid-cols-2 gap-x-63px gap-y-30px)">
         <form action="">
