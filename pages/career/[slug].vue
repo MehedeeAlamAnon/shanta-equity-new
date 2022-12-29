@@ -2,14 +2,14 @@
   <section class="w-full relative h-709px">
     <img src="~/assets/images/bg-career.png" class="w-full h-full" />
     <div
-      class="absolute top-0 bottom-0 flex w-full h-full breadcrumb-overlay justify-center items-center text-55px font-light text-white uppercase"
+      class="absolute top-0 bottom-0 flex w-full h-full breadcrumb-overlay justify-center items-center text-55px leading-normal font-light text-white uppercase text-center"
     >
       Build your career with Us
     </div>
   </section>
   <section class="pt-79px pb-106px">
     <!-- internal section start -->
-    <div class="max-w-1050px mx-auto">
+    <div class="max-w-1050px mx-auto px-4 2xl:(px-0)">
       <div class="mb-63.96px">
         <h2 class="text-45px text-[#1F3C74] mb-20px">Executive</h2>
         <p class="text-25px font-light mb-20px">Vacancy: 1</p>
@@ -19,7 +19,7 @@
         <h3 class="text-25px text-[#1F3C74] capitalize mb-30px">
           Job Description
         </h3>
-        <div class="grid grid-cols-2 gap-50px">
+        <div class="grid md:(grid-cols-2) gap-50px">
           <!-- col start -->
           <div>
             <div class="mb-30px">
@@ -89,15 +89,15 @@
   </section>
   <section>
     <!-- internal section start -->
-    <div class="max-w-1437px mx-auto mb-92px">
+    <div class="max-w-1437px mx-auto mb-92px px-4 2xl:(px-0)">
       <h2
-        class="max-w-1005px mx-auto text-45px text-[#1F3C74] font-light mb-69px"
+        class="max-w-1050px mx-auto text-45px text-[#1F3C74] font-light mb-69px px-4 xl:(px-0)"
       >
         Fill out the form below to apply
       </h2>
       <form action="">
-        <div class="apply-card py-64px">
-          <div class="max-w-1005px mx-auto">
+        <div class="apply-card py-64px px-8 xl:(px-0)">
+          <div class="max-w-1050px mx-auto">
             <div class="w-full mb-21px">
               <label
                 for="career_summary"
@@ -114,7 +114,9 @@
             </div>
             <div class="max-w-810px">
               <!-- form row start -->
-              <div class="w-full mb-21px grid grid-cols-2 gap-x-90px">
+              <div
+                class="w-full mb-21px grid sm:(grid-cols-2) gap-30px xl:(gap-x-90px)"
+              >
                 <!-- form col start -->
                 <div>
                   <label
@@ -150,7 +152,9 @@
               </div>
               <!-- form row end -->
               <!-- form row start -->
-              <div class="w-full mb-21px grid grid-cols-2 gap-x-90px">
+              <div
+                class="w-full mb-21px grid sm:(grid-cols-2) gap-30px xl:(gap-x-90px)"
+              >
                 <!-- form col start -->
                 <div>
                   <label
@@ -190,7 +194,7 @@
               <h4 class="text-35px text-[#1F3C74] mb-38px">Document</h4>
               <div>
                 <p class="text-14px leading-18px mb-10px">Resume (PDF Only)*</p>
-                <div class="grid grid-cols-2 gap-x-90px">
+                <div class="grid sm:(grid-cols-2) gap-30px xl:(gap-x-90px)">
                   <div
                     class="border-1 border-[#1F3C74] py-8px pl-10px flex items-center"
                   >
@@ -199,6 +203,8 @@
                       type="file"
                       name="myfile"
                       class="absolute opacity-0 -z-1"
+                      hidden
+                      @change="onFileChange"
                     />
                     <label
                       for="file_upload"
@@ -208,7 +214,7 @@
 
                     <span
                       class="max-w-200px text-14px overflow-hidden whitespace-nowrap overflow-ellipsis"
-                      >No file Choosen</span
+                      >{{ fileName ? fileName : "No file Choosen" }}</span
                     >
                   </div>
                 </div>
@@ -230,7 +236,12 @@
   </section>
 </template>
 
-<script setup></script>
+<script setup>
+const fileName = ref(null);
+function onFileChange(e) {
+  fileName.value = e.target.files[0].name;
+}
+</script>
 
 <style lang="scss" scoped>
 .breadcrumb-overlay {

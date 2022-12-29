@@ -29,13 +29,11 @@
             alt="sel logo"
             class="w-179px h-47px mb-30px mx-auto"
           />
-
           <p class="text-12px leading-20px text-center font-medium">
             {{ transaction.summary }}
           </p>
         </div>
       </template>
-
       <!-- col end -->
     </div>
   </section>

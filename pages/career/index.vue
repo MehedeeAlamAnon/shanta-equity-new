@@ -2,13 +2,13 @@
   <section class="w-full relative h-709px">
     <img src="~/assets/images/bg-career.png" class="w-full h-full" />
     <div
-      class="absolute top-0 bottom-0 flex w-full h-full breadcrumb-overlay justify-center items-center text-55px font-light text-white uppercase"
+      class="absolute top-0 bottom-0 flex w-full h-full breadcrumb-overlay justify-center items-center text-55px leading-normal font-light text-white uppercase text-center"
     >
       Build your career with Us
     </div>
   </section>
   <section
-    class="max-w-1177px mx-auto font-light py-80px text-30px leading-65px text-center"
+    class="max-w-1177px px-4 mx-auto font-light py-80px text-center text-24px leading-relaxed lg:(text-30px leading-65px) xl:(px-0)"
   >
     Our employees are empowered to perform at their very best and are guided by
     our greater purpose of innovation: to establish SEL as an icon for customers
@@ -16,13 +16,15 @@
   </section>
   <section>
     <!-- internal section start -->
-    <div class="max-w-1207px mx-auto mb-95px">
+    <div class="max-w-1207px px-4 xl:(px-0) mx-auto mb-95px">
       <h2
-        class="text-35px leading-35px text-[#1F3C74] font-light border-bottom border-bottom-1px border-[#1F3C74] pb-31px mb-58px"
+        class="text-30px md:(text-35px leading-35px) <lg:(leading-normal) text-[#1F3C74] font-light border-bottom border-bottom-1px border-[#1F3C74] pb-31px mb-58px"
       >
         Explore Jobs/Explore Our Career Opportunities
       </h2>
-      <div class="max-w-1008px mx-auto grid grid-cols-2 gap-x-44px gap-y-32px">
+      <div
+        class="max-w-1008px mx-auto grid grid-cols-1 gap-30px sm:(grid-cols-2 gap-x-44px gap-y-32px)"
+      >
         <div
           class="bg-[#F1F8FF] rounded-20px p-30px text-[#1F3C74] font-light"
           v-for="job in openJobs"
@@ -45,13 +47,13 @@
     </div>
     <!-- internal section end -->
     <!-- internal section start -->
-    <div class="max-w-1207px mx-auto mb-95px">
+    <div class="max-w-1207px px-4 xl:(px-0) mx-auto mb-95px">
       <h2
         class="text-35px leading-35px text-[#1F3C74] font-light border-bottom-1px border-[#1F3C74] pb-31px mb-58px"
       >
         Drop Your CV
       </h2>
-      <form class="max-w-714px">
+      <form class="w-full max-w-714px">
         <div class="w-full mb-31px">
           <input
             type="text"
@@ -76,21 +78,26 @@
             class="form-control w-full h-44px border-1 border-[#1F3C74] pl-22px font-light"
           />
         </div>
-        <div class="w-full flex">
+        <div class="w-full flex flex-col sm:(flex-row)">
           <div>
             <label
               for="file_upload"
-              class="border-1 border-[#1F3C74] w-217px h-44px pl-22px cursor-pointer inline-block leading-44px text-12px text-[#000] text-opacity-50 font-light"
-              >Browse Files</label
-            >
+              class="border-1 border-[#1F3C74] w-217px h-44px pl-22px cursor-pointer inline-block leading-44px text-12px text-[#000] text-opacity-50 overflow-ellipsis whitespace-nowrap overflow-hidden font-light"
+              >Browse Files
+              <span v-if="fileName" class="ml-2 text-[#1F3C74]">
+                {{ fileName }}
+              </span>
+            </label>
             <input
               id="file_upload"
               type="file"
               name="myfile"
-              class="absolute opacity-1 cursor-pointer"
+              hidden
+              @change="onFileChange"
             />
+            <!-- class="absolute opacity-1 cursor-pointer left-0 top-100 w-100 h-100" -->
           </div>
-          <div class="ml-31px">
+          <div class="mt-31px sm:(ml-31px mt-0)">
             <button
               type="submit"
               class="w-120px h-44px bg-[#1F3C74] text-white text-15px font-light"
@@ -103,7 +110,7 @@
     </div>
     <!-- internal section end -->
     <!-- internal section start -->
-    <div class="max-w-1207px mx-auto mb-61px">
+    <div class="max-w-1207px px-4 xl:(px-0) mx-auto mb-61px">
       <div
         class="flex justify-between items-center border-bottom-1px border-[#1F3C74] pb-31px mb-63px"
       >
@@ -116,15 +123,22 @@
           >
         </div>
       </div>
-      <div class="flex basis-full mx-auto gap-x-60px gap-y-56px justify-center">
+      <div
+        class="flex flex-wrap sm:(flex-nowrap gap-x-30px px-4) basis-full mx-auto gap-y-56px justify-center lg:(px-0 gap-x-60px)"
+      >
         <!-- col item start -->
-        <div v-for="member in members" :key="member.id" class="min-w-1/5">
-          <div class="bg-[#D9D9D9] h-339px">
-            <!-- <img
-          v-if="member.avatar"
-          :src="require(`~/assets/images/members/${member.avatar}`)"
-          alt=""
-        /> -->
+        <div
+          v-for="member in members"
+          :key="member.id"
+          class="min-w-full sm:(min-w-1/2) md:(min-w-1/3) lg:(min-w-1/5)"
+        >
+          <div class="bg-[#D9D9D9] sm:(h-339px) overflow-hidden">
+            <img
+              v-if="member.avatar"
+              :src="`/images/members/${member.avatar}`"
+              class="w-full"
+              alt=""
+            />
           </div>
           <p class="text-20px leading-35px font-light text-justify mt-21px">
             {{ member.name }}
@@ -141,32 +155,7 @@
 </template>
 
 <script setup>
-const openJobs = [
-  {
-    id: 1,
-    title: "Executive",
-    vacancy: 1,
-    deadline: "2022-10-04",
-  },
-  {
-    id: 2,
-    title: "Human Resource Intern",
-    vacancy: 5,
-    deadline: "2022-10-04",
-  },
-  {
-    id: 3,
-    title: "Investment Banking Intern",
-    vacancy: 5,
-    deadline: "2022-10-04",
-  },
-  {
-    id: 4,
-    title: "Portfolio Analyst",
-    vacancy: 2,
-    deadline: "2022-10-04",
-  },
-];
+import openJobs from "~/assets/data/openJobs.js";
 const members = [
   {
     id: 8,
@@ -181,6 +170,11 @@ const members = [
     avatar: "hossain-pieas.png",
   },
 ];
+
+const fileName = ref(null);
+function onFileChange(e) {
+  fileName.value = e.target.files[0].name;
+}
 </script>
 
 <style lang="scss" scoped>
