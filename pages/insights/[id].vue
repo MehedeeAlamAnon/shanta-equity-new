@@ -123,8 +123,6 @@
 import insights from "@/assets/data/insights.js";
 const { id } = useRoute().params;
 const insight = insights.find((data) => data.id == id);
-
-console.log(insight);
 </script>
 
 <style lang="scss" scoped>

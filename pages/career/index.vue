@@ -23,12 +23,13 @@
         Explore Jobs/Explore Our Career Opportunities
       </h2>
       <div
-        class="max-w-1008px mx-auto grid grid-cols-1 gap-30px sm:(grid-cols-2 gap-x-44px gap-y-32px)"
+        class="max-w-1008px mx-auto grid grid-cols-1 gap-30px sm:(grid-cols-2 gap-x-44px gap-y-32px) cursor-pointer"
       >
         <div
-          class="bg-[#F1F8FF] rounded-20px p-30px text-[#1F3C74] font-light"
+          class="bg-[#F1F8FF] rounded-20px p-30px text-[#1F3C74] font-light career-card transition duration-300"
           v-for="job in openJobs"
           :key="job.id"
+          @click="openModal(job)"
         >
           <h3 class="text-30px leading-35px mb-20px">{{ job.title }}</h3>
           <p class="text-20px leading-25px mb-20px">
@@ -152,6 +153,11 @@
     </div>
     <!-- internal section end -->
   </section>
+  <JobModal
+    v-if="showModal"
+    :jobData="jobData"
+    @close-modal="showModal = false"
+  />
 </template>
 
 <script setup>
@@ -171,10 +177,20 @@ const members = [
   },
 ];
 
+const showModal = ref(false);
+const jobData = ref(null);
+
+function openModal(data) {
+  showModal.value = true;
+  jobData.value = data;
+}
+
+// uploaded file handle start
 const fileName = ref(null);
 function onFileChange(e) {
   fileName.value = e.target.files[0].name;
 }
+// uploaded file handle end
 </script>
 
 <style lang="scss" scoped>
@@ -186,6 +202,12 @@ function onFileChange(e) {
     rgba(31, 60, 116, 0.392976) 70.31%,
     rgba(31, 60, 116, 0) 100%
   );
+}
+.career-card {
+  &:hover {
+    background-color: #1f3c74;
+    color: #fff;
+  }
 }
 .form-control {
   &::placeholder {

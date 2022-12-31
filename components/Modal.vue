@@ -149,7 +149,7 @@ const props = defineProps(["transactionData"]);
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #000000da;
+  background-color: rgba(0, 0, 0, 0.6);
 }
 .overlay {
   position: absolute;

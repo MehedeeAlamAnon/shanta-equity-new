@@ -9,15 +9,21 @@
   </section>
   <section class="pt-79px pb-106px">
     <!-- internal section start -->
-    <div class="max-w-1050px mx-auto px-4 2xl:(px-0)">
+    <div class="max-w-1050px mx-auto px-4 2xl:(px-0)" v-if="jobData">
       <div class="mb-63.96px">
-        <h2 class="text-45px text-[#1F3C74] mb-20px">Executive</h2>
-        <p class="text-25px font-light mb-20px">Vacancy: 1</p>
-        <p class="text-25px font-light">Deadline: 2022-10-04</p>
+        <h2 class="text-45px text-[#1F3C74] mb-20px">
+          <span v-if="jobData.title">{{ jobData.title }}</span>
+        </h2>
+        <p class="text-25px font-light mb-20px">
+          Vacancy: <span v-if="jobData.vacancy">{{ jobData.vacancy }}</span>
+        </p>
+        <p class="text-25px font-light">
+          Deadline: <span v-if="jobData.deadline">{{ jobData.deadline }}</span>
+        </p>
       </div>
       <div>
         <h3 class="text-25px text-[#1F3C74] capitalize mb-30px">
-          Job Description
+          {{ jobData.description }}
         </h3>
         <div class="grid md:(grid-cols-2) gap-50px">
           <!-- col start -->
@@ -27,14 +33,12 @@
                 Key Accountabilities
               </h4>
               <ul class="list-disc pl-20px">
-                <li class="text-18px leading-25px">
-                  Filling positions within an organization
-                </li>
-                <li class="text-18px leading-25px">
-                  Drafting and posting job descriptions
-                </li>
-                <li class="text-18px leading-25px">
-                  Supporting to develop of a recruitment plan.
+                <li
+                  class="text-18px leading-25px"
+                  v-for="item in jobData.accountabilities"
+                  :key="item.id"
+                >
+                  {{ item }}
                 </li>
               </ul>
             </div>
@@ -43,19 +47,13 @@
                 Skills, Knowledge and Competencies
               </h4>
               <ul class="list-disc pl-20px">
-                <li class="text-18px leading-25px">
-                  Excellent communication skills.
+                <li
+                  class="text-18px leading-25px"
+                  v-for="item in jobData.skills"
+                  :key="item.id"
+                >
+                  {{ item }}
                 </li>
-                <li class="text-18px leading-25px">
-                  Stakeholder Management Skills
-                </li>
-                <li class="text-18px leading-25px">
-                  Proficient in Excel, MS Word, Outlook and basic presentation
-                </li>
-                <li class="text-18px leading-25px">
-                  Basic Analytical and Problem Solving Skills
-                </li>
-                <li class="text-18px leading-25px">Labour Law Knowledge</li>
               </ul>
             </div>
           </div>
@@ -67,8 +65,7 @@
                 Work Experience
               </h4>
               <p class="text-18px leading-25px">
-                At least one year of experience either in resourcing or
-                equivalent roles in HR of any reputed organization.
+                {{ jobData.experiences }}
               </p>
             </div>
             <div>
@@ -76,8 +73,7 @@
                 Education Requirement
               </h4>
               <p class="text-18px leading-25px">
-                BBA/MBA with major in HR from a recognized local or
-                international university.
+                {{ jobData.educationRequirement }}
               </p>
             </div>
           </div>
@@ -237,6 +233,10 @@
 </template>
 
 <script setup>
+import openJobs from "@/assets/data/openJobs.js";
+const { id } = useRoute().params;
+const jobData = openJobs.find((data) => data.id == id);
+
 const fileName = ref(null);
 function onFileChange(e) {
   fileName.value = e.target.files[0].name;
