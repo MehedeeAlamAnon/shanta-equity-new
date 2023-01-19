@@ -75,7 +75,7 @@
       <!-- grid start -->
       <div class="xl:(ml-52.82px) mb-6px">
         <button
-          class="w-135px h-38px border border-[#1F3C74] rounded-20px text-[#1F3C74] capitalize text-18px font-light hover:bg-[#1F3C74] hover:text-white"
+          class="w-135px h-38px border border-[#1F3C74] rounded-20px text-[#1F3C74] capitalize text-18px font-light hover:bg-[#1F3C74] hover:text-white transition ease-in-out"
         >
           See More
         </button>
