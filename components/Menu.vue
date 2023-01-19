@@ -32,7 +32,7 @@
       </li>
       <li>
         <NuxtLink class="uppercase font-light nav-link h-full"
-          >Memorandum</NuxtLink
+          >Downloads</NuxtLink
         >
       </li>
     </ul>

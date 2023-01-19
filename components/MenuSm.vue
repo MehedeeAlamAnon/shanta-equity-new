@@ -29,7 +29,7 @@
         >
       </li>
       <li>
-        <NuxtLink class="uppercase font-light nav-link">Memorandum</NuxtLink>
+        <NuxtLink class="uppercase font-light nav-link">Downloads</NuxtLink>
       </li>
     </ul>
     <form action="">

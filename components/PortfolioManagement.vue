@@ -25,7 +25,7 @@
       >
         <div class="flex flex-col items-center gap-y-8 sm:(flex-row)">
           <button
-            class="text-20px leading-24px font-light border-1 border-[#1F3C74] rounded-20px text-[#1F3C74] capitalize px-19px h-49px hover:bg-[#1F3C74] hover:text-white"
+            class="text-20px leading-24px font-light border-1 border-[#1F3C74] rounded-20px text-[#1F3C74] capitalize px-19px h-49px hover:bg-[#1F3C74] hover:text-white transition ease-in-out"
           >
             Create Account
           </button>
@@ -62,7 +62,7 @@
             <div>
               <button
                 type="submit"
-                class="bg-[#1F3C74] h-28.27px w-77.09px text-15px font-light text-white"
+                class="bg-[#1F3C74] h-28.27px w-77.09px text-15px font-light text-white rounded-md"
               >
                 Submit
               </button>
