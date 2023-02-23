@@ -10,17 +10,17 @@
       >
         <div class="mb-36px">
           <div class="bg-[#d9d9d9] h-235.55px"></div>
-          <p class="text-17px mt-17.76px font-light">
-            Bangladesh and the world economic crisis
+          <p class="px-2 text-17px mt-17.76px font-light">
+            Navigating the world economic crisis
           </p>
         </div>
         <div class="mb-36px">
           <div class="bg-[#d9d9d9] h-235.55px"></div>
-          <!-- <p class="text-17px leading-45px mt-17.76px font-light"></p> -->
+          <p class="px-2 text-17px mt-17.76px font-light">Monetary Policy Overview</p>
         </div>
         <div class="mb-36px">
           <div class="bg-[#d9d9d9] h-235.55px"></div>
-          <!-- <p class="text-17px leading-45px mt-17.76px font-light"></p> -->
+          <p class="px-2 text-17px mt-17.76px font-light">Bangladesh Economic Outlook 2023</p>
         </div>
       </div>
     </div>

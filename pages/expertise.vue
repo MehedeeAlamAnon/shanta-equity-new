@@ -4,13 +4,13 @@
     <div
       class="absolute top-0 bottom-0 flex w-full px-4 h-full breadcrumb-overlay justify-center items-center text-55px leading-tight font-light text-white uppercase text-center"
     >
-      A Leading-Edge Financial Services Company
+      A Leading Investment Bank
     </div>
   </section>
   <section
-    class="max-w-998px px-4 mx-auto font-light py-75px text-20px leading-snug sm:(text-30px leading-65px) text-center"
+    class="max-w-998px px-4 mx-auto font-light py-75px text-20px sm:(text-30px leading-65px) text-center"
   >
-    Offering a range of investment banking and corporate advisory solutions.We
+    Offering a range of investment banking and corporate advisory solutions, we
     believe in going the extra mile for our clients and offering them the best
     possible services to maximize value
   </section>
@@ -184,11 +184,8 @@
         <p
           class="text-20px leading-snug sm:(text-25px leading-45px) tracking-wider text-center mb-70px font-light"
         >
-          With our corporate advisory services, you will comprehend the company
-          structuring alternatives available to you and increase shareholder
-          value inside your firm. Our experts provide you the ideal blend of
-          technical, commercial, and operational competence for the distinctive
-          issues your firm is experiencing thanks to our extensive understanding
+          With our cutting-edge corporate advisory solutions, we will help you to see your firm in a new way and unlock hidden shareholder value. Our experts provide you the ideal blend of
+          technical, commercial, and operational competence to help your firm expertly navigate through rough waters, thanks to our extensive understanding
           of global and local markets.
         </p>
         <!-- grid start -->
@@ -234,10 +231,10 @@
         <p
           class="text-20px leading-snug sm:(text-25px leading-45px) tracking-wider text-center mb-70px font-light"
         >
-          We provide discretionary and non- discretionary portfolio management
+          We provide both Discretionary and Non-Discretionary portfolio management
           services that are tailored to the unique needs of our clients. In case
-          of Non-discretionary portfolio management, we also provide margin
-          financing.
+          of Non-Discretionary portfolio management services, we also provide margin
+          financing to give you the extra edge.
         </p>
         <!-- grid start -->
         <div
