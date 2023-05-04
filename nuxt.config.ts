@@ -17,10 +17,12 @@ export default defineNuxtConfig({
   },
   modules: [
     "@nuxt/content",
-    // '@nuxt/image-edge',
     "nuxt-windicss",
     "@vueuse/nuxt",
     "@nuxtjs/google-fonts",
+  ],
+  plugins: [
+    { src: '~/plugins/fontawesome.js' }
   ],
   googleFonts: {
     display: "swap",
@@ -28,4 +30,11 @@ export default defineNuxtConfig({
       Roboto: [300, 400, 500, 600, 700, 800, 900],
     },
   },
+  css: [
+    '@fortawesome/fontawesome-svg-core/styles.css'
+  ],
+  server: {
+    // Increase the maximum file size to 50 MB (52428800 bytes)
+    maxPayload: 52428800
+  }
 });

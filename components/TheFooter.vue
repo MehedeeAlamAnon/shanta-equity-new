@@ -1,13 +1,62 @@
 <template>
+  <section class="bg-[#1f3c74] pt-52px pb-45px px-32px">
+    <div class="container mx-auto text-white px-4">
+      <div
+        class="grid grid-cols-1 gap-y-8 sm:(flex flex-wrap) md:(grid grid-cols-3) w-full"
+      >
+        <!-- col start -->
+        <div class="item">
+          <div class="flex gap-24px">
+            <div class="min-w-32px">
+              <font-awesome-icon :icon="['fas', 'phone']" size="2xl" class="text-[#aaa100]" />
+            </div>
+            <div>
+              <h5 class="text-24px mb-3">Call us</h5>
+              <p class="text-16px text-[#e0e0e0] leading-snug">02-9612606</p>
+            </div>
+          </div>
+        </div>
+        <!-- col end -->
+        <!-- col start -->
+        <div class="item">
+          <div class="flex gap-24px">
+            <div class="min-w-32px">
+              <font-awesome-icon :icon="['fas', 'envelope']" size="2xl" class="text-[#aaa100]" />
+            </div>
+            <div>
+              <h5 class="text-24px mb-3">Email us</h5>
+              <p class="text-16px text-[#e0e0e0] leading-snug">info@edgeamc.com</p>
+            </div>
+          </div>
+        </div>
+        <!-- col end -->
+        <!-- col start -->
+        <div class="item">
+          <div class="flex gap-24px">
+            <div class="min-w-32px">
+              <font-awesome-icon :icon="['fas', 'map-marker-alt']" size="2xl" class="text-[#aaa100]" />
+            </div>
+            <div>
+              <h5 class="text-24px mb-3">Address</h5>
+              <p class="text-16px text-[#e0e0e0] leading-snug">The Glass House Level 04, S.E (B)-2, 38 Gulshan Avenue, Dhaka 1212</p>
+            </div>
+          </div>
+        </div>
+        <!-- col end -->
+      </div>
+    </div>
+  </section>
   <footer class="bg-[#f8f8f8]">
     <div class="container mx-auto px-4 py-53px">
       <div class="grid grid-cols-1 lg:(grid-cols-2)">
         <div>
-          <img
-            src="~/assets/images/logo.svg"
-            alt="SEL Logo"
-            class="w-258.8px h-68px"
-          />
+          <NuxtLink to="/" class="footer-nav-link">
+            <img
+              src="~/assets/images/logo.svg"
+              alt="SEL Logo"
+              class="w-258.8px h-68px"
+            />
+          </NuxtLink>
           <address class="mt-32px not-italic">
             <h3
               class="text-20px leading-24px font-semibold tracking-0.04em mb-6px"
@@ -33,42 +82,47 @@
           <div class="min-w-1/2 lg:min-w-201px">
             <ul>
               <li class="footer-nav-item">
-                <NuxtLink to="/about" class="footer-nav-link"
-                  >About Us</NuxtLink
+                <NuxtLink to="/who-we-are" class="footer-nav-link"
+                  >Who We Are</NuxtLink
+                >
+              </li>
+              <li class="footer-nav-item">
+                <NuxtLink to="/expertise" class="footer-nav-link"
+                  >Expertise</NuxtLink
                 >
               </li>
               <li class="footer-nav-item">
                 <NuxtLink to="/our-team" class="footer-nav-link">Team</NuxtLink>
               </li>
-              <li class="footer-nav-item">
+              <!-- <li class="footer-nav-item">
                 <NuxtLink to="/transactions" class="footer-nav-link"
                   >Transactions</NuxtLink
                 >
-              </li>
-              <li class="footer-nav-item">
+              </li> -->
+              <!-- <li class="footer-nav-item">
                 <NuxtLink to="/" class="footer-nav-link">Our Services</NuxtLink>
-              </li>
-              <li class="footer-nav-item">
+              </li> -->
+              <!-- <li class="footer-nav-item">
                 <NuxtLink class="footer-nav-link">Forms</NuxtLink>
-              </li>
+              </li> -->
             </ul>
           </div>
           <div class="min-w-1/2 lg:min-w-201px">
             <ul>
               <li class="footer-nav-item">
-                <NuxtLink class="footer-nav-link">Background</NuxtLink>
+                <NuxtLink to="/documents" class="footer-nav-link">Documents</NuxtLink>
               </li>
-              <li class="footer-nav-item">
+              <!-- <li class="footer-nav-item">
                 <NuxtLink to="/career" class="footer-nav-link">Career</NuxtLink>
-              </li>
+              </li> -->
               <li class="footer-nav-item">
                 <NuxtLink class="footer-nav-link">Contact</NuxtLink>
               </li>
-              <li class="footer-nav-item">
+              <!-- <li class="footer-nav-item">
                 <NuxtLink to="/insights" class="footer-nav-link"
                   >Insights</NuxtLink
                 >
-              </li>
+              </li> -->
             </ul>
           </div>
         </div>
@@ -102,6 +156,16 @@
   </footer>
 </template>
 <style lang="scss" scoped>
+@media (max-width: 640px) {
+  .sec-title {
+    font-size: 26px;
+  }
+}
+@media (min-width: 640px) and (max-width: 767px) {
+  .item {
+    min-width: 50%;
+  }
+}
 .footer-nav-item {
   &:not(:last-child) {
     margin-bottom: 30px;
@@ -111,6 +175,9 @@
     font-size: 18px;
     line-height: 24px;
     letter-spacing: 0.04em;
+    &:hover{
+      color: #1F3C74;
+    }
   }
 }
 </style>

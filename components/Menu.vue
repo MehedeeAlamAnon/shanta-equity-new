@@ -4,8 +4,8 @@
   >
     <ul class="flex xl:(space-x-5px) 2xl:(space-x-32px) h-full">
       <li>
-        <NuxtLink to="/about" class="uppercase font-light nav-link h-full"
-          >About us</NuxtLink
+        <NuxtLink to="/who-we-are" class="uppercase font-light nav-link h-full"
+          >Who we are</NuxtLink
         >
       </li>
       <li>
@@ -18,7 +18,7 @@
           >Team</NuxtLink
         >
       </li>
-      <li>
+      <!-- <li>
         <NuxtLink to="/insights" class="uppercase font-light nav-link h-full"
           >Insights</NuxtLink
         >
@@ -29,10 +29,10 @@
           class="uppercase font-light nav-link h-full"
           >Transactions</NuxtLink
         >
-      </li>
+      </li> -->
       <li>
-        <NuxtLink class="uppercase font-light nav-link h-full"
-          >Downloads</NuxtLink
+        <NuxtLink to="/documents" class="uppercase font-light nav-link h-full"
+          >Documents</NuxtLink
         >
       </li>
     </ul>

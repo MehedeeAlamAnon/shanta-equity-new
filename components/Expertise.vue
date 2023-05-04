@@ -28,59 +28,6 @@
         </div>
       </div>
     </div>
-    <div
-      class="px-4 flex flex-col justify-center items-center gap-y-8 mb-82px xl:(flex-row items-end px-0)"
-    >
-      <!-- grid start -->
-      <div
-        class="w-full grid grid-cols-1 sm:(grid-cols-2) xl:(grid-cols-4) xl:(w-1075.18px) gap-21.54px"
-      >
-        <div>
-          <div class="bg-[#D9D9D9] h-326.4px"></div>
-          <h3 class="text-20px leading-35px font-light text-justify mt-21px">
-            Initial Public Offering
-          </h3>
-        </div>
-        <div>
-          <div class="bg-[#D9D9D9] h-326.4px">
-            <img
-              src="~/assets/images/merges.png"
-              alt="acquisitions img"
-              class="w-full h-full"
-            />
-          </div>
-          <h3 class="text-20px leading-35px font-light text-justify mt-21px">
-            Initial Public Offering
-          </h3>
-        </div>
-        <div>
-          <div class="bg-[#D9D9D9] h-326.4px">
-            <img
-              src="~/assets/images/corporate.png"
-              alt="corporate img"
-              class="w-full h-full"
-            />
-          </div>
-          <h3 class="text-20px leading-35px font-light text-justify mt-21px">
-            Corporate Advisory
-          </h3>
-        </div>
-        <div>
-          <div class="bg-[#D9D9D9] h-326.4px"></div>
-          <h3 class="text-20px leading-35px font-light text-justify mt-21px">
-            Portfolio Management
-          </h3>
-        </div>
-      </div>
-      <!-- grid start -->
-      <div class="xl:(ml-52.82px) mb-6px">
-        <button
-          class="w-135px h-38px border border-[#1F3C74] rounded-20px text-[#1F3C74] capitalize text-18px font-light hover:bg-[#1F3C74] hover:text-white transition ease-in-out"
-        >
-          See More
-        </button>
-      </div>
-    </div>
   </section>
 </template>
 

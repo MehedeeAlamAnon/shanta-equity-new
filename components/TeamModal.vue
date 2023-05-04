@@ -23,16 +23,14 @@
             </a>
           </div>
         </div>
-        <div class="px-20px py-31px md:(px-29px) xl:(pr-52px)">
+        <div class="px-20px py-31px md:(px-29px) xl:(pr-52px) min-w-[60%]">
           <h2 class="text-32px leading-35px mb-15px font-light">
             {{ memberData.name }}
           </h2>
           <p class="text-16px leading-35px font-bold mb-20px">
             {{ memberData.designation }}
           </p>
-          <p class="text-18px leading-35px text-justify">
-            {{ memberData.description }}
-          </p>
+          <div v-if="memberData.description" v-html="`${memberData.description}`" class="text-18px leading-35px text-justify"></div>
         </div>
       </div>
     </div>

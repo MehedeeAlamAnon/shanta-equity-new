@@ -15,5 +15,11 @@
     "nuxt-windicss": "^2.6.0",
     "sass": "^1.56.2",
     "sass-loader": "^13.2.0"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.4.0",
+    "@fortawesome/free-brands-svg-icons": "^6.4.0",
+    "@fortawesome/free-solid-svg-icons": "^6.4.0",
+    "@fortawesome/vue-fontawesome": "^3.0.3"
   }
 }
