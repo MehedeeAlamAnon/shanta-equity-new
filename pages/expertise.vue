@@ -1,5 +1,21 @@
 <template>
-    <section class="w-full relative">
+    <!-- banner section start -->
+    <section class="banner bg-cover bg-no-repeat bg-bottom">
+      <div
+        class="banner-content bg-black bg-opacity-30 flex items-center min-h-xs sm:(min-h-screen-sm) lg:(min-h-screen-md) 2xl:(min-h-screen-1080px)"
+      >
+        <div class="container mx-auto px-4">
+          <h2 class="text-20px leading-snug font-light text-white uppercase sm:(text-36px leading-tight) md:(text-40px leading-snug) lg:(text-55px leading-snug)">
+              “Our mission is to provide the best capital market solutions across the Investment Banking and Portfolio Management space.”
+            </h2> 
+            <p class="max-w-full text-14px leading-snug text-[#f0f0f0] sm:(text-20px leading-tight) md:(text-24px leading-tight) mt-5">
+              “We do this by leveraging the deep knowledge of our team and utilizing our robust network across the country’s financial sector.”
+            </p>
+        </div>
+      </div>
+    </section>
+    <!-- banner section end -->
+    <!-- <section class="w-full relative">
       <img src="~/assets/images/our-capabilities.jpg" class="w-full" />
       <div
         class="absolute top-0 bottom-0 flex w-full px-4 h-full breadcrumb-overlay justify-center items-center"
@@ -13,7 +29,7 @@
           </p>
         </div>
       </div>
-    </section>
+    </section> -->
     <section
       class="max-w-998px px-4 mx-auto font-light py-75px text-20px sm:(text-30px leading-65px) text-center"
     >
@@ -144,35 +160,7 @@
     </section>
   </template>
   
-  <script setup>
-  const advisorys = [
-    {
-      id: 1,
-      img: "advisory-1.png",
-      title: "Equity Valuation",
-    },
-    {
-      id: 2,
-      img: "advisory-2.png",
-      title: "Mergers & Acquisitions",
-    },
-    {
-      id: 3,
-      img: "advisory-3.png",
-      title: "Trustee Services",
-    },
-    {
-      id: 4,
-      img: "advisory-4.png",
-      title: "Substantial Share Acquisition",
-    },
-    {
-      id: 5,
-      img: "advisory-5.png",
-      title: "Pre-IPO Advisory",
-    },
-  ];
-  </script>
+  <script setup></script>
   
   <style lang="scss" scoped>
   // .breadcrumb-overlay {
@@ -184,6 +172,9 @@
   //     rgba(31, 60, 116, 0) 100%
   //   );
   // }
+  .banner {
+    background-image: url("~/assets/images/our-capabilities.jpg");
+  }
   .breadcrumb-overlay {
     background: rgba(31, 60, 116, .5)
   }

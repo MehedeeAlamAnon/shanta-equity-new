@@ -49,12 +49,12 @@
   <footer class="bg-[#f8f8f8]">
     <div class="container mx-auto px-4 py-53px">
       <div class="grid grid-cols-1 lg:(grid-cols-2)">
-        <div>
+        <div class="overflow-hidden">
           <NuxtLink to="/" class="footer-nav-link">
             <img
               src="~/assets/images/logo.svg"
               alt="SEL Logo"
-              class="w-258.8px h-68px"
+              class="w-258.8px h-68px -ml-3"
             />
           </NuxtLink>
           <address class="mt-32px not-italic">
@@ -91,9 +91,7 @@
                   >Expertise</NuxtLink
                 >
               </li>
-              <li class="footer-nav-item">
-                <NuxtLink to="/our-team" class="footer-nav-link">Team</NuxtLink>
-              </li>
+              
               <!-- <li class="footer-nav-item">
                 <NuxtLink to="/transactions" class="footer-nav-link"
                   >Transactions</NuxtLink
@@ -110,14 +108,17 @@
           <div class="min-w-1/2 lg:min-w-201px">
             <ul>
               <li class="footer-nav-item">
+                <NuxtLink to="/our-team" class="footer-nav-link">Team</NuxtLink>
+              </li>
+              <li class="footer-nav-item">
                 <NuxtLink to="/documents" class="footer-nav-link">Documents</NuxtLink>
               </li>
               <!-- <li class="footer-nav-item">
                 <NuxtLink to="/career" class="footer-nav-link">Career</NuxtLink>
               </li> -->
-              <li class="footer-nav-item">
+              <!-- <li class="footer-nav-item">
                 <NuxtLink class="footer-nav-link">Contact</NuxtLink>
-              </li>
+              </li> -->
               <!-- <li class="footer-nav-item">
                 <NuxtLink to="/insights" class="footer-nav-link"
                   >Insights</NuxtLink

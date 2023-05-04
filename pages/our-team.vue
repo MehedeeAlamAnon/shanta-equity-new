@@ -1,12 +1,17 @@
 <template>
-  <section class="w-full relative">
-    <img src="~/assets/images/bg-our-team.jpg" class="w-full h-full" />
-    <div
-      class="absolute top-0 bottom-0 flex w-full px-4 h-full breadcrumb-overlay justify-center items-center text-55px <sm:text-30px leading-tight font-light text-white uppercase text-center"
-    >
-      Meet The Shanta Equity Team
-    </div>
-  </section>
+  <!-- banner section start -->
+  <section class="banner bg-cover bg-no-repeat bg-bottom">
+      <div
+        class="banner-content bg-black bg-opacity-30 flex items-center min-h-xs sm:(min-h-screen-sm) lg:(min-h-screen-md) 2xl:(min-h-screen-1080px)"
+      >
+        <div class="container mx-auto px-4">
+          <h2 class="text-20px leading-snug font-light text-white text-center uppercase sm:(text-36px leading-tight) md:(text-40px leading-snug) lg:(text-55px leading-snug)">
+            Meet The Shanta Equity Team
+          </h2>
+        </div>
+      </div>
+    </section>
+    <!-- banner section end -->
   <section
     class="grid grid-cols-1 max-w-1535px mx-auto pt-80px pb-80px team-wrapper gap-30px gap-y-40px sm:(grid-cols-2 gap-x-50px gap-y-50px) lg:(grid-cols-3 gap-60px px-0) xl:(gap-x-100px gap-y-70px py-100px)"
   >
@@ -52,6 +57,9 @@ function openModal(data) {
 </script>
 
 <style>
+.banner {
+    background-image: url("~/assets/images/bg-our-team.jpg");
+  }
   .breadcrumb-overlay {
     background: rgba(31, 60, 116, .5)
   }
