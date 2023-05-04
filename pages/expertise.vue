@@ -175,14 +175,17 @@
   </script>
   
   <style lang="scss" scoped>
+  // .breadcrumb-overlay {
+  //   background: linear-gradient(
+  //     90deg,
+  //     #1f3c74 7.81%,
+  //     rgba(31, 60, 116, 0.765625) 23.44%,
+  //     rgba(31, 60, 116, 0.392976) 70.31%,
+  //     rgba(31, 60, 116, 0) 100%
+  //   );
+  // }
   .breadcrumb-overlay {
-    background: linear-gradient(
-      90deg,
-      #1f3c74 7.81%,
-      rgba(31, 60, 116, 0.765625) 23.44%,
-      rgba(31, 60, 116, 0.392976) 70.31%,
-      rgba(31, 60, 116, 0) 100%
-    );
+    background: rgba(31, 60, 116, .5)
   }
   .sec-title {
     position: relative;
