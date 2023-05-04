@@ -3,81 +3,145 @@ const members = [
       id: 1,
       name: "Rubayet-E-Ferdous",
       designation: "Chief Executive Officer",
-      avatar: "",
+      avatar: "rubayet-e-ferdous.jpg",
       socialLinkedin: '',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illum sunt cumque, aperiam nihil fugit impedit perferendis quibusdam adipisci quo, quia quaerat itaque veniam magni quod vitae? Officiis, recusandae eligendi?'
+      description: `
+      <ul class='pl-5'>
+        <li class='list-circle'>
+          Mr. Rubayet leads the overall strategy and direction of the firm, in addition to managing all aspects of the firm’s corporate financing activities to support continued growth.
+        </li>
+        <li class='list-circle'>
+          He started his Investment Banking career at BMSL Investment Limited in 2000. Prior to joining Shanta Equity, he served as the Chief Operating Officer of IDLC Investments Limited, where he started as an Assistant Manager in 2005.
+        </li>
+        <li class='list-circle'>
+          He is an MBA holder and completed his Bachelors in Economics from University of Calcutta.
+        </li>
+      </ul>
+    `
     },
     {
       id: 2,
-      name: "Arif Khan",
-      designation: "Advisor",
-      avatar: "",
+      name: "Md Samsul Haque FCS",
+      designation: "Chief Operating Officer",
+      avatar: "samsul.jpg",
       socialLinkedin: '',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illum sunt cumque, aperiam nihil fugit impedit perferendis quibusdam adipisci quo, quia quaerat itaque veniam magni quod vitae? Officiis, recusandae eligendi?'
+      description: `
+        <ul class='pl-5'>
+          <li class='list-circle'>
+            Mr. Samsul is responsible for ensuring streamlined operations across all departments, in alignment with the strategic direction of the firm.
+          </li>
+          <li class='list-circle'>
+            Prior to joining Shanta Equity, he worked at Asian Tiger Capital Partners Limited.
+          </li>
+          <li class='list-circle'>
+            He holds a Masters of Commerce from Jagannath University. He is a qualified Chartered Secretary under the Institute of Chartered Secretaries of Bangladesh (ICSB) and an Income Tax Practitioner (ITP) under the National Board of Revenue (NRB).
+          </li>
+        </ul>
+      `
     },
     {
       id: 3,
-      name: "Md. Samsul Haque, FCS, LLB",
-      designation: "Chief Operating Officer",
-      avatar: "",
+      name: "Mahmud-Ur-Rashid",
+      designation: "Head of Business & DPM",
+      avatar: "mahmud.jpg",
       socialLinkedin: '',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illum sunt cumque, aperiam nihil fugit impedit perferendis quibusdam adipisci quo, quia quaerat itaque veniam magni quod vitae? Officiis, recusandae eligendi?'
+      description: `
+        <ul class='pl-5'>
+          <li class='list-circle'>
+            Mr. Mahmud is responsible for leading the Investment Banking team, in addition to managing the firm’s relationships with its capital market partners. He also leads the firm’s Discretionary Portfolio offering.
+          </li>
+          <li class='list-circle'>
+            Prior to joining Shanta Equity, he served as the Head of Investment Banking at IDLC Investments Limited, where he started his career in 2008 as a Probationary Officer.
+          </li>
+          <li class='list-circle'>
+            He completed his MBA with major in Finance and BBA with major in Accounting and Information System from the University of Dhaka. He also served as adjunct faculty in the University of Asia Pacific.
+          </li>
+        </ul>
+      `
     },
     {
       id: 4,
-      name: "Mahmud-Ur-Rashid",
-      designation: "Head of Business",
-      avatar: "",
+      name: "M.M. Ashraful Hasib",
+      designation: "Assistant General Manager",
+      avatar: "hasib.jpg",
       socialLinkedin: '',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illum sunt cumque, aperiam nihil fugit impedit perferendis quibusdam adipisci quo, quia quaerat itaque veniam magni quod vitae? Officiis, recusandae eligendi?'
+      description: `
+        <ul class='pl-5' class='pl-5'>
+          <li class='list-circle'>
+            Mr. Hasib is responsible for leading various deal transactions of the Investment Banking team across a variety of industry coverage groups, with full specialization in managing IPOs.
+          </li>
+          <li class='list-circle'>
+            Prior to joining Shanta Equity, he served as Senior Manager at IDLC Investments Limited, where he started his career in 2013 as a Probationary Officer.
+          </li>
+          <li class='list-circle'>
+            He completed his MBA with major in Accounting from the University of Dhaka and his BBA with a major in Finance from BRAC University.
+          </li>
+        </ul>
+      `
     },
     {
       id: 5,
       name: "Saimon Mazid",
       designation: "Head of Margin Loan",
-      avatar: "",
+      avatar: "saimon.jpg",
       socialLinkedin: '',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illum sunt cumque, aperiam nihil fugit impedit perferendis quibusdam adipisci quo, quia quaerat itaque veniam magni quod vitae? Officiis, recusandae eligendi?'
+      description: `
+        <ul class='pl-5'>
+          <li class='list-circle'>
+            Mr. Saimon leads the firm’s Non-Discretionary Portfolio offering, in addition to overseeing the Margin Lending business.
+          </li>
+          <li class='list-circle'>
+            Prior to joining Shanta Equity, he served as Head of Margin Loan and Senior Manager at IDLC Investments Limited.
+          </li>
+          <li class='list-circle'>
+            He completed his MBA from the Asian University of Bangladesh.
+          </li>
+        </ul>
+      `
     },
     {
       id: 6,
-      name: "Ashraful Hasib",
-      designation: "Senior Manager",
-      avatar: "",
+      name: "Saad Niamatullah CFA",
+      designation: "Manager",
+      avatar: "saad.jpg",
       socialLinkedin: '',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illum sunt cumque, aperiam nihil fugit impedit perferendis quibusdam adipisci quo, quia quaerat itaque veniam magni quod vitae? Officiis, recusandae eligendi?'
+      description: `
+        <ul class='pl-5'>
+          <li class='list-circle'>
+            Mr. Saad is responsible for coordinating the mandates of the team’s deal portfolio, performing deep analytics , and overseeing the due diligence process.
+          </li>
+          <li class='list-circle'>
+            Prior to joining Shanta Equity, he worked as Fund Manager at both NDB Capital and Asian Tiger Asset Management Limited, and as Analyst at LankaBangla Asset Management Company Limited.
+          </li>
+          <li class='list-circle'>
+            He obtained his MBA from Institute of Business Administration (IBA), University of Dhaka, and his Bachelors in Mechanical Engineering from Bangladesh University of Engineering and Technology (BUET). He is also a CFA Charterholder.
+          </li>
+        </ul>
+      `
     },
     {
       id: 7,
-      name: "Saad Niamatullah, CFA",
-      designation: "Manager",
-      avatar: "",
+      name: "Rifat",
+      designation: "Management Trainee",
+      avatar: "rifat.jpg",
       socialLinkedin: '',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illum sunt cumque, aperiam nihil fugit impedit perferendis quibusdam adipisci quo, quia quaerat itaque veniam magni quod vitae? Officiis, recusandae eligendi?'
+      description: ``
     },
     {
       id: 8,
-      name: "Walid Rahman",
+      name: "Hossain Pieas",
       designation: "Management Trainee",
-      avatar: "walid-rahman.png",
-      socialLinkedin: 'https://www.linkedin.com/company/shantaequity/',
-      description: 'Walid joined the Shanta Equity team in July 2022. Prior to joining Shanta Equity, Walid worked in the public sector for 2+ years, where he developed strong research and stakeholder management skills. Walid graduated cum laude from New York University (NYU) in the US, with a minor in Business from NYU’s Leonard N. Stern School of Business.'
+      avatar: "pieas.jpg",
+      socialLinkedin: '',
+      description: ``
     },
     {
       id: 9,
-      name: "Hossain Pieas",
-      designation: "Management Trainee",
-      avatar: "hossain-pieas.png",
-      socialLinkedin: 'https://www.linkedin.com/company/shantaequity/',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illum sunt cumque, aperiam nihil fugit impedit perferendis quibusdam adipisci quo, quia quaerat itaque veniam magni quod vitae? Officiis, recusandae eligendi?'
-    },
-    {
-      id: 10,
       name: "Asfia Sultana",
       designation: "Executive",
-      avatar: "",
+      avatar: "asfia.jpg",
       socialLinkedin: '',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illum sunt cumque, aperiam nihil fugit impedit perferendis quibusdam adipisci quo, quia quaerat itaque veniam magni quod vitae? Officiis, recusandae eligendi?'
+      description: ``
     },
   ];
 

@@ -1,8 +1,9 @@
 <template>
   <Banner />
   <Introduction />
+  <Solutions />
   <WhyShanta />
   <Expertise />
   <PortfolioManagement />
-  <Insights />
+  <!-- <Insights /> -->
 </template>
