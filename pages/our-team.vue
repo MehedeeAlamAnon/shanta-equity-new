@@ -52,6 +52,9 @@ function openModal(data) {
 </script>
 
 <style>
+  .breadcrumb-overlay {
+    background: rgba(31, 60, 116, .5)
+  }
 @media (max-width: 1600px) {
   .team-wrapper {
     padding-left: 30px;

@@ -9,7 +9,7 @@
       >
         Our Background
       </h2>
-      <div class="w-full">
+      <!-- <div class="w-full">
           <h3
             class="text-28px sm:text-35px leading-35px text-[#1F3C74] font-light border-bottom border-bottom-1px border-[#1F3C74] pb-31px mb-10"
           >
@@ -18,7 +18,7 @@
           <p class="mb-4 xl:mb-8 leading-relaxed">
               Providing the best capital market solutions while upholding the highest levels of ethical standards, trust and integrity. 
           </p>
-      </div>
+      </div> -->
       <div class="w-full my-20">
           <h3
             class="text-28px sm:text-35px leading-35px text-[#1F3C74] font-light border-bottom border-bottom-1px border-[#1F3C74] pb-31px mb-10"
