@@ -31,7 +31,7 @@
       </div>
     </section> -->
     <section
-      class="max-w-998px px-4 mx-auto font-light py-75px text-20px sm:(text-30px leading-65px) text-center"
+      class="max-w-998px px-4 mx-auto font-light py-75px text-20px leading-relaxed sm:(text-30px leading-relaxed) xl:(leading-65px) text-center"
     >
       Offering a range of investment banking and corporate advisory solutions, we
       believe in going the extra mile for our clients and offering them the best
@@ -45,7 +45,7 @@
         >
           <span class="sec-title-text">Capabilities in Investment Banking</span>
         </h1>
-        <p class="px-4 mx-auto font-light text-18px sm:(text-24px leading-relaxed) text-center mb-60px">
+        <p class="px-4 mx-auto font-light text-18px leading-relaxed sm:(text-24px leading-relaxed) text-center mb-60px">
             We offer a wide range of Investment Banking services across the Equity Capital Market, Debt Capital Market and Corporate Advisory space to help our corporate partners raise capital, manage risks and achieve their strategic goals.
         </p>
         <!-- inner internal wrapper start -->
@@ -128,7 +128,7 @@
         >
           <span class="sec-title-text">Capabilities in Portfolio Management</span>
         </h1>
-        <p class="px-4 mx-auto font-light text-18px sm:(text-24px leading-relaxed) text-center mb-60px">
+        <p class="px-4 mx-auto font-light text-18px leading-relaxed sm:(text-24px leading-relaxed) text-center mb-60px">
             We offer a wide range of Investment Banking services across the Equity Capital Market, Debt Capital Market and Corporate Advisory space to help our corporate partners raise capital, manage risks and achieve their strategic goals.
         </p>
         <!-- inner internal wrapper start -->
@@ -199,16 +199,31 @@
   .item {
     flex: 0 0 auto;
   }
-  @media (max-width: 640px) {
+  @media (max-width: 1024px) {
     .sec-title {
-      font-size: 36px;
+      &::before {
+        position: absolute;
+        content: "";
+        top: unset;
+        bottom: -20px;
+        left: 0;
+      }
       &-text {
-        padding: 10px 15px;
-        max-width: 270px;
-        display: inline-block;
+        background-color: transparent;
+        padding: 0;
       }
     }
   }
+  // @media (max-width: 640px) {
+  //   .sec-title {
+  //     font-size: 36px;
+  //     &-text {
+  //       padding: 10px 15px;
+  //       max-width: 270px;
+  //       display: inline-block;
+  //     }
+  //   }
+  // }
   @media (max-width: 375px) {
     .sec-title {
       font-size: 32px;

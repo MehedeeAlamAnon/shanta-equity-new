@@ -25,7 +25,7 @@
           >
             Our Story
           </h3>
-          <div class="grid grid-cols-2 gap-60px items-center">
+          <div class="grid grid-cols-2 gap-60px items-center <xl:(grid-cols-1)">
             <div>
               <p class="mb-4 xl:mb-8 leading-relaxed">
                 Shanta Equity Limited is an innovative investment bank specialized in offering a range of investment banking and portfolio management solutions to both institutional and individual clients.
@@ -47,8 +47,8 @@
           >
             Our Sister Concerns
           </h3>
-          <div class="grid grid-cols-2 gap-60px items-center">
-            <img src="~/assets/images/sister-concerns.jpg" alt="Our sister concerns">
+          <div class="grid grid-cols-2 gap-60px items-center <xl:(grid-cols-1 )">
+            <img src="~/assets/images/sister-concerns.jpg" alt="Our sister concerns" class="<xl:(order-last)">
             <div>
               <p class="mb-4 xl:mb-8 leading-relaxed">
                 We are a sister concern of Shanta Holdings, a renowned corporate house in Bangladesh with industry leading establishments in multiple sectors including Real Estate, Healthcare, Banking and Financial Services, Education, and Luxury Retail. 
