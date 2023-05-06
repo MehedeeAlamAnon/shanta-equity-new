@@ -9,12 +9,12 @@
         class="w-[95%] px-4 md:(w-730px) lg:(w-778px) mx-auto text-white w-full 2xl:(w-613px ml-160px)"
       >
         <h3
-          class="text-36px sm:(text-45px leading-75px) mb-36px mt-41px font-bold 2xl:(mb-61px)"
+          class="text-36px <sm:(text-26px) xl:(text-45px leading-75px) mb-36px mt-41px font-bold 2xl:(mb-61px)"
         >
           Portfolio Management
         </h3>
         <h2
-          class="text-46px leading-tight mb-40px sm:(text-85px leading-75px mb-56px) font-bold"
+          class="text-46px leading-tight mb-40px <sm:(text-36px) sm:(mb-56px) xl:(text-85px leading-75px) font-bold"
         >
           Don’t delay <br />
           Invest today.

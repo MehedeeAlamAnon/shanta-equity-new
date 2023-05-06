@@ -42,9 +42,14 @@
   width: 116px;
   background-color: #fff;
 }
-@media (max-width: 320px) {
+@media (max-width: 575px) {
   .expertise-title {
     font-size: 30px;
+  }
+}
+@media (max-width: 375px) {
+  .expertise-title {
+    font-size: 26px;
   }
 }
 </style>

@@ -1,5 +1,5 @@
 <template>
-  <section class="bg-[#1f3c74] pt-52px pb-45px px-32px">
+  <section class="bg-[#1f3c74] pt-52px pb-45px px-32px <sm:(px-2)">
     <div class="container mx-auto text-white px-4">
       <div
         class="grid grid-cols-1 gap-y-8 sm:(flex flex-wrap) md:(grid grid-cols-3) w-full"
@@ -7,11 +7,11 @@
         <!-- col start -->
         <div class="item">
           <div class="flex gap-24px">
-            <div class="min-w-32px">
-              <font-awesome-icon :icon="['fas', 'phone']" size="2xl" class="text-[#aaa100]" />
+            <div class="min-w-32px <sm:min-w-24px">
+              <font-awesome-icon :icon="['fas', 'phone']" size="2xl" class="text-[#aaa100] icon" />
             </div>
             <div>
-              <h5 class="text-24px mb-3">Call us</h5>
+              <h5 class="text-24px mb-3 <sm:(text-20px)">Call us</h5>
               <p class="text-16px text-[#e0e0e0] leading-snug">02-9612606</p>
             </div>
           </div>
@@ -20,11 +20,11 @@
         <!-- col start -->
         <div class="item">
           <div class="flex gap-24px">
-            <div class="min-w-32px">
-              <font-awesome-icon :icon="['fas', 'envelope']" size="2xl" class="text-[#aaa100]" />
+            <div class="min-w-32px <sm:min-w-24px">
+              <font-awesome-icon :icon="['fas', 'envelope']" size="2xl" class="text-[#aaa100] icon" />
             </div>
             <div>
-              <h5 class="text-24px mb-3">Email us</h5>
+              <h5 class="text-24px mb-3 <sm:(text-20px)">Email us</h5>
               <p class="text-16px text-[#e0e0e0] leading-snug">info@edgeamc.com</p>
             </div>
           </div>
@@ -33,11 +33,11 @@
         <!-- col start -->
         <div class="item">
           <div class="flex gap-24px">
-            <div class="min-w-32px">
-              <font-awesome-icon :icon="['fas', 'map-marker-alt']" size="2xl" class="text-[#aaa100]" />
+            <div class="min-w-32px <sm:min-w-24px">
+              <font-awesome-icon :icon="['fas', 'map-marker-alt']" size="2xl" class="text-[#aaa100] icon" />
             </div>
             <div>
-              <h5 class="text-24px mb-3">Address</h5>
+              <h5 class="text-24px mb-3 <sm:(text-20px)">Address</h5>
               <p class="text-16px text-[#e0e0e0] leading-snug">The Glass House Level 04, S.E (B)-2, 38 Gulshan Avenue, Dhaka 1212</p>
             </div>
           </div>
@@ -161,6 +161,10 @@
   .sec-title {
     font-size: 26px;
   }
+  .icon {
+    font-size: 24px;
+  }
+
 }
 @media (min-width: 640px) and (max-width: 767px) {
   .item {

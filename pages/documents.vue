@@ -1,6 +1,6 @@
 <template>
     <Breadcrumb imgUrl="bg-transactions.png" pageTitle="Documents" />
-    <section class="py-70 md:(py-100px)">
+    <section class="py-70px md:(py-100px)">
       <div class="container mx-auto px-4">
         <!-- inner internal wrapper start -->
         <div class="w-full mb-60px">

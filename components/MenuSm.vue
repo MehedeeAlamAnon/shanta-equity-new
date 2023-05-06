@@ -1,11 +1,11 @@
 <template>
   <div
-    class="absolute bg-[#1f3c74] top-74px left-0 z-50 p-30px flex flex-col space-y-6 h-screen"
+    class="absolute bg-[#1f3c74] top-74px left-0 z-50 p-30px flex flex-col space-y-6 w-full"
   >
     <ul class="flex flex-col space-y-3">
       <li>
-        <NuxtLink to="/about" class="uppercase font-light nav-link"
-          >About us</NuxtLink
+        <NuxtLink to="/who-we-are" class="uppercase font-light nav-link"
+          >Who We Are</NuxtLink
         >
       </li>
       <li>
@@ -19,17 +19,7 @@
         >
       </li>
       <li>
-        <NuxtLink to="/insights" class="uppercase font-light nav-link"
-          >Insights</NuxtLink
-        >
-      </li>
-      <li>
-        <NuxtLink to="/transactions" class="uppercase font-light nav-link"
-          >Transactions</NuxtLink
-        >
-      </li>
-      <li>
-        <NuxtLink class="uppercase font-light nav-link">Downloads</NuxtLink>
+        <NuxtLink to="/documents" class="uppercase font-light nav-link">Documents</NuxtLink>
       </li>
     </ul>
     <form action="">

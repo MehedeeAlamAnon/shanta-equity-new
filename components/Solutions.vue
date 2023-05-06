@@ -6,7 +6,7 @@
         THE SOLUTIONS WE OFFER
       </h2>
       <div class="container mx-auto px-4 pt-48px pb-60px">
-        <div class="flex items-center flex-col md:flex-row gap-60px">
+        <div class="flex items-center flex-col md:flex-row gap-60px <xl:(gap-30px)">
             <div class="w-full">
                 <h2
                   class="text-28px sm:text-35px leading-35px text-[#1F3C74] font-light border-bottom border-bottom-1px border-[#1F3C74] pb-31px mb-10"
@@ -24,7 +24,7 @@
                 <img src="~/assets/images/investment-banking.jpg" alt="investment banking">
             </div>
         </div>
-        <div class="flex items-center flex-col md:flex-row gap-60px mt-16 mb-8">
+        <div class="flex items-center flex-col md:flex-row gap-60px mt-16 mb-8 <xl:(gap-30px) <md:(flex-col-reverse)">
             <div class="w-full">
                 <img src="~/assets/images/portfolio-investment.jpg" alt="investment banking">
             </div>
@@ -46,5 +46,11 @@
     </section>
   </template>
   
-  <style lang="scss" scoped></style>
+<style lang="scss" scoped>
+@media (max-width: 640px) {
+  .sec-title {
+    font-size: 26px;
+  }
+}
+</style>
   
