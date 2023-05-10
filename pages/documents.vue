@@ -24,18 +24,18 @@
             Investment Banking
           </h2>
           <ul class="pl-8">
-            <li class="list-circle font-light my-2"><a href="/bhl_rh_prospectus.pdf" class="text-[#1f3c74] font-normal" download>Best Holdings Limited – prospectus</a></li>
-            <li class="list-circle font-light my-2"> <a href="/IFAD_Bond_AIM.pdf" class="text-[#1f3c74] font-normal" download>IFAD Autos – Bond IM</a></li>
+            <li class="list-circle font-light my-2"><a href="/bhl_rh_prospectus.pdf" class="text-[#1f3c74] font-normal" download>Prospectus - Best Holdings Limited</a></li>
+            <li class="list-circle font-light my-2"> <a href="/IFAD_Bond_AIM.pdf" class="text-[#1f3c74] font-normal" download>Information Memorandum - IFAD Autos Bond Secured Coupon Bearing Bond</a></li>
           </ul>
         </div>
         <!-- inner internal wrapper end -->
       </div>
     </section>
-    
+
   </template>
-  
+
   <script setup></script>
-  
+
   <style lang="scss" scoped>
   .sec-title {
     position: relative;
@@ -75,4 +75,3 @@
     }
   }
   </style>
-  
