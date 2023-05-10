@@ -25,7 +25,7 @@
             </div>
             <div>
               <h5 class="text-24px mb-3 <sm:(text-20px)">Email us</h5>
-              <p class="text-16px text-[#e0e0e0] leading-snug">info@edgeamc.com</p>
+              <p class="text-16px text-[#e0e0e0] leading-snug">info@shantaequity.net</p>
             </div>
           </div>
         </div>
@@ -38,7 +38,7 @@
             </div>
             <div>
               <h5 class="text-24px mb-3 <sm:(text-20px)">Address</h5>
-              <p class="text-16px text-[#e0e0e0] leading-snug">The Glass House Level 04, S.E (B)-2, 38 Gulshan Avenue, Dhaka 1212</p>
+              <p class="text-16px text-[#e0e0e0] leading-snug">The Glass House Level 4, S.E (B)-2, 38 Gulshan Avenue, Dhaka 1212</p>
             </div>
           </div>
         </div>
@@ -91,7 +91,7 @@
                   >Expertise</NuxtLink
                 >
               </li>
-              
+
               <!-- <li class="footer-nav-item">
                 <NuxtLink to="/transactions" class="footer-nav-link"
                   >Transactions</NuxtLink

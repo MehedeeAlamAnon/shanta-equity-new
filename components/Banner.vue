@@ -10,13 +10,17 @@
         >
           Our purpose is to create value and make capital work
         </h1>
-        <p class="max-w-full lg:(max-w-1200px) text-14px leading-snug text-[#f0f0f0] sm:(text-20px leading-tight) md:(text-24px leading-tight)">
-          We do this by placing the needs of our clients at the forefront while upholding the highest levels of ethical standards, trust and integrity.
+        <p
+          class="max-w-full lg:(max-w-1200px) text-14px leading-snug text-[#f0f0f0] sm:(text-20px leading-tight) md:(text-24px leading-tight)"
+        >
+          We do this by placing the needs of our clients at the forefront while
+          upholding the highest levels of ethical standards, trust and
+          integrity.
         </p>
         <button
           class="mt-24px sm:mt-30px md:mt-40px lg:mt-60px text-14px leading-24px font-light border-1 border-white rounded-20px text-white w-179px h-49px uppercase hover:bg-[#1f3c74] hover:border-[#1f3c74] transition ease-in-out sm:(text-16px) lg:(text-20px)"
         >
-          Contact Us
+          <a href="mailto:info@shantaequity.net">Contact Us</a>
         </button>
       </div>
     </div>

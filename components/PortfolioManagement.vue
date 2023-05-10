@@ -20,56 +20,7 @@
           Invest today.
         </h2>
       </div>
-      <div
-        class="w-[95%] p-8 text-content mx-auto bg-white box-shadow md:(w-730px pt-32.73px pl-66px pr-83px pb-32.73px) lg:(w-778px) 2xl:(w-778px mt-184px mr-142px ml-auto)"
-      >
-        <div class="flex flex-col items-center gap-y-8 sm:(flex-row)">
-          <button
-            class="text-20px leading-24px font-light border-1 border-[#1F3C74] rounded-20px text-[#1F3C74] capitalize px-19px h-49px hover:bg-[#1F3C74] hover:text-white transition ease-in-out"
-          >
-            Create Account
-          </button>
-          <div
-            class="line-divider mx-0 sm:(mx-30px block) md:(mx-55px) lg:(mx-80px)"
-          ></div>
-          <form class="text-center w-290px">
-            <h3
-              class="text-30px mb-4 leading-normal font-bold text-[#1F3C74] uppercase lg:(text-35px leading-75px)"
-            >
-              Get a Call Back
-            </h3>
-            <div>
-              <input
-                type="text"
-                placeholder="Name"
-                class="border-1 border-[#1F3C74] h-28.27px pl-13.97px w-full max-w-279.46px mb-19.92px font-light text-15px focus:outline-[#1F3C74]"
-              />
-            </div>
-            <div>
-              <input
-                type="text"
-                placeholder="Phone"
-                class="border-1 border-[#1F3C74] h-28.27px pl-13.97px w-full max-w-279.46px mb-19.92px font-light text-15px focus:outline-[#1F3C74]"
-              />
-            </div>
-            <div>
-              <input
-                type="text"
-                placeholder="Email"
-                class="border-1 border-[#1F3C74] h-28.27px pl-13.97px w-full max-w-279.46px mb-15.37px font-light text-15px focus:outline-[#1F3C74]"
-              />
-            </div>
-            <div>
-              <button
-                type="submit"
-                class="bg-[#1F3C74] h-28.27px w-77.09px text-15px font-light text-white rounded-md"
-              >
-                Submit
-              </button>
-            </div>
-          </form>
-        </div>
-      </div>
+      
     </div>
   </section>
 </template>
