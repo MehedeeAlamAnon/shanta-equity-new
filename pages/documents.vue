@@ -10,9 +10,9 @@
             Portfolio Management
           </h2>
           <ul class="pl-8">
-            <li class="list-circle font-light my-2"><a href="/" class="text-[#1f3c74] font-normal" download>NDPM Form</a></li>
-            <li class="list-circle font-light my-2"> <a href="/" class="text-[#1f3c74] font-normal" download>DPM Form</a></li>
-            <li class="list-circle font-light my-2"> <a href="/" class="text-[#1f3c74] font-normal" download>Portfolio Management Brochure</a></li>
+            <li class="list-circle font-light my-2"><a href="/NDPM_Form.pdf" class="text-[#1f3c74] font-normal" download>NDPM Form</a></li>
+            <li class="list-circle font-light my-2"> <span class="text-[#1f3c74] font-normal" download>DPM Form</span></li>
+            <li class="list-circle font-light my-2"> <span class="text-[#1f3c74] font-normal" download>Portfolio Management Brochure</span></li>
           </ul>
         </div>
         <!-- inner internal wrapper end -->
