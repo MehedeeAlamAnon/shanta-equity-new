@@ -1,15 +1,15 @@
 <template>
     <section>
       <h2
-        class="bg-[#1f3c74] text-white text-45px leading-normal font-light uppercase text-center py-52px px-32px sec-title"
+        class="bg-[#1f3c74] text-white text-48px leading-normal font-light uppercase text-center py-52px px-32px sec-title"
       >
         THE SOLUTIONS WE OFFER
       </h2>
-      <div class="container mx-auto px-4 pt-48px pb-60px">
+      <div class="container mx-auto px-4 py-100px <sm:(py-70px)">
         <div class="flex items-center flex-col md:flex-row gap-60px <xl:(gap-30px)">
             <div class="w-full">
                 <h2
-                  class="text-28px sm:text-35px leading-35px text-[#1F3C74] font-light border-bottom border-bottom-1px border-[#1F3C74] pb-31px mb-10"
+                  class="text-28px sm:text-32px leading-35px text-[#1F3C74] font-light border-bottom border-bottom-1px border-[#1F3C74] pb-31px mb-10"
                 >
                   Investment Banking
                 </h2>
@@ -24,13 +24,13 @@
                 <img src="~/assets/images/investment-banking.jpg" alt="investment banking">
             </div>
         </div>
-        <div class="flex items-center flex-col md:flex-row gap-60px mt-16 mb-8 <xl:(gap-30px) <md:(flex-col-reverse)">
+        <div class="flex items-center flex-col md:flex-row gap-60px mt-16 <xl:(gap-30px) <md:(flex-col-reverse)">
             <div class="w-full">
                 <img src="~/assets/images/portfolio-investment.jpg" alt="investment banking">
             </div>
             <div class="w-full">
                 <h2
-                  class="text-28px sm:text-35px leading-35px text-[#1F3C74] font-light border-bottom border-bottom-1px border-[#1F3C74] pb-31px mb-10"
+                  class="text-28px sm:text-32px leading-35px text-[#1F3C74] font-light border-bottom border-bottom-1px border-[#1F3C74] pb-31px mb-10"
                 >
                   Portfolio Management
                 </h2>

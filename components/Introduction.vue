@@ -3,7 +3,7 @@
     <div class="flex items-center flex-col md:flex-row">
       <div class="w-full md:w-[43.65%] intro-img bg-cover bg-center bg-no-repeat min-h-xs sm:min-h-425px">
         <div
-          class="intro-img-overlay w-full min-h-xs text-36px sm:(text-50px min-h-425px) leading-snug text-white uppercase flex text-center justify-center items-center px-4">
+          class="intro-img-overlay w-full min-h-xs text-36px sm:(text-48px min-h-425px) leading-snug text-white uppercase flex text-center justify-center items-center px-4">
           Shanta Equity Limited
         </div>
       </div>

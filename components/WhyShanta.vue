@@ -1,7 +1,7 @@
 <template>
   <section>
     <h2
-      class="bg-[#1f3c74] text-white text-45px leading-normal font-light uppercase text-center py-52px px-32px sec-title"
+      class="bg-[#1f3c74] text-white text-48px leading-normal font-light uppercase text-center py-52px px-32px sec-title"
     >
       WHY SHANTA EQUITY IS YOUR RIGHT PARTNER
     </h2>
@@ -14,7 +14,7 @@
           <div class="max-w-55px h-45px mx-auto text-center mb-28px">
             <img src="~/assets/images/ethical.png" alt="icon" />
           </div>
-          <p class="text-15px leading-20px font-light">
+          <p class="text-16px leading-20px font-light">
             Higest Level of <br />
             <span class="font-bold">
               Ethical Standard, Corporate <br />
@@ -28,7 +28,7 @@
           <div class="max-w-55px h-45px mx-auto text-center mb-28px">
             <img src="~/assets/images/experienced.png" alt="icon" />
           </div>
-          <p class="text-15px leading-20px font-light">
+          <p class="text-16px leading-20px font-light">
             One of the <span class="font-bold">Most Experienced</span> <br />
             teams in the industry
           </p>
@@ -39,7 +39,7 @@
           <div class="max-w-55px h-45px mx-auto text-center mb-28px">
             <img src="~/assets/images/network.png" alt="icon" />
           </div>
-          <p class="text-15px leading-20px font-light">
+          <p class="text-16px leading-20px font-light">
             Strong <span class="font-bold">Market presence</span> and <br />
             <span class="font-bold">Networks</span>
           </p>
