@@ -13,13 +13,13 @@
         />
         <div class="text-center px-4 lg:(ml-71px text-left)">
           <h2
-            class="text-36px leading-snug mt-30px mb-30px sm:(text-42px leading-tight) lg:(mt-47px text-45px mb-48px leading-tight) expertise-title"
+            class="text-32px leading-snug mt-30px mb-30px sm:(text-42px leading-tight) lg:(mt-47px text-48px mb-48px leading-tight) expertise-title"
           >
             Expertise you need. Service you deserve.
           </h2>
           <div class="divider mx-auto lg:(ml-0 mr-auto)"></div>
           <p
-            class="mt-30px max-w-full md:(max-w-[80%] mx-auto) text-20px leading-30px lg:(max-w-835px mt-36px)"
+            class="mt-30px max-w-full md:(max-w-[80%] mx-auto) text-18px leading-30px lg:(max-w-835px mt-36px ml-0) <sm:(text-16px)"
           >
             Developing specialized, complex financial solutions by navigating
             quick, radical developments that are altering industries and

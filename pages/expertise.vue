@@ -5,33 +5,17 @@
         class="banner-content bg-black bg-opacity-30 flex items-center min-h-xs sm:(min-h-screen-sm) lg:(min-h-screen-md) 2xl:(min-h-screen-1080px)"
       >
         <div class="container mx-auto px-4">
-          <h2 class="text-20px leading-snug font-light text-white uppercase sm:(text-36px leading-tight) md:(text-40px leading-snug) lg:(text-55px leading-snug)">
+          <h2 class="text-20px leading-snug font-light text-white uppercase sm:(text-32px leading-tight) md:(text-36px leading-snug) lg:(text-48px leading-snug)">
               “Our mission is to provide the best capital market solutions across the Investment Banking and Portfolio Management space.”
             </h2> 
-            <p class="max-w-full text-14px leading-snug text-[#f0f0f0] sm:(text-20px leading-tight) md:(text-24px leading-tight) mt-5">
+            <p class="max-w-full text-16px leading-snug text-[#f0f0f0] sm:(text-18px leading-tight) md:(text-18px leading-tight) mt-5">
               “We do this by leveraging the deep knowledge of our team and utilizing our robust network across the country’s financial sector.”
             </p>
         </div>
       </div>
     </section>
-    <!-- banner section end -->
-    <!-- <section class="w-full relative">
-      <img src="~/assets/images/our-capabilities.jpg" class="w-full" />
-      <div
-        class="absolute top-0 bottom-0 flex w-full px-4 h-full breadcrumb-overlay justify-center items-center"
-      >
-        <div class="container">
-          <h2 class="text-55px leading-snug font-light text-white uppercase">
-            “Our mission is to provide the best capital market solutions across the Investment Banking and Portfolio Management space.”
-          </h2> 
-          <p class="max-w-full text-14px leading-snug text-[#f0f0f0] sm:(text-20px leading-tight) md:(text-24px leading-tight) mt-5">
-            “We do this by leveraging the deep knowledge of our team and utilizing our robust network across the country’s financial sector.”
-          </p>
-        </div>
-      </div>
-    </section> -->
     <section
-      class="max-w-998px px-4 mx-auto font-light py-75px text-20px leading-relaxed sm:(text-30px leading-relaxed) xl:(leading-65px) text-center"
+      class="max-w-998px px-4 mx-auto font-light py-75px text-18px leading-relaxed sm:(text-32px leading-relaxed) xl:(leading-relaxed) text-center"
     >
       Offering a range of investment banking and corporate advisory solutions, we
       believe in going the extra mile for our clients and offering them the best
@@ -51,7 +35,7 @@
         <!-- inner internal wrapper start -->
         <div class="max-w-1207px mx-auto mb-60px xl:(mb-72px)">
           <h2
-            class="text-28px sm:text-35px leading-35px text-[#1F3C74] font-light border-bottom border-bottom-1px border-[#1F3C74] pb-31px mb-40px"
+            class="text-26px sm:text-32px leading-snug text-[#1F3C74] font-light border-bottom border-bottom-1px border-[#1F3C74] pb-31px mb-40px"
           >
             Equity Capital Market
           </h2>
@@ -74,7 +58,7 @@
         <!-- inner internal wrapper start -->
         <div class="max-w-1207px mx-auto mb-60px xl:(mb-72px)">
           <h2
-            class="text-28px sm:text-35px leading-35px text-[#1F3C74] font-light border-bottom border-bottom-1px border-[#1F3C74] pb-31px mb-40px"
+            class="text-26px sm:text-32px leading-snug text-[#1F3C74] font-light border-bottom border-bottom-1px border-[#1F3C74] pb-31px mb-40px"
           >
             Debt Capital Market
           </h2>
@@ -96,7 +80,7 @@
         <!-- inner internal wrapper start -->
         <div class="max-w-1207px mx-auto mb-60px xl:(mb-72px)">
           <h2
-            class="text-28px sm:text-35px leading-35px text-[#1F3C74] font-light border-bottom border-bottom-1px border-[#1F3C74] pb-31px mb-40px"
+            class="text-26px sm:text-32px leading-snug text-[#1F3C74] font-light border-bottom border-bottom-1px border-[#1F3C74] pb-31px mb-40px"
           >
             Corporate Advisory
           </h2>
@@ -134,7 +118,7 @@
         <!-- inner internal wrapper start -->
         <div class="max-w-1207px mx-auto mb-60px xl:(mb-72px)">
           <h2
-            class="text-28px sm:text-35px leading-35px text-[#1F3C74] font-light border-bottom border-bottom-1px border-[#1F3C74] pb-31px mb-40px"
+            class="text-26px sm:text-32px leading-snug text-[#1F3C74] font-light border-bottom border-bottom-1px border-[#1F3C74] pb-31px mb-40px"
           >
             Non-Discretionary Portfolio Management (Cash/Margin)
           </h2>
@@ -146,7 +130,7 @@
         <!-- inner internal wrapper start -->
         <div class="max-w-1207px mx-auto mb-60px xl:(mb-72px)">
           <h2
-            class="text-28px sm:text-35px leading-35px text-[#1F3C74] font-light border-bottom border-bottom-1px border-[#1F3C74] pb-31px mb-40px"
+            class="text-26px sm:text-32px leading-snug text-[#1F3C74] font-light border-bottom border-bottom-1px border-[#1F3C74] pb-31px mb-40px"
           >
             Discretionary Portfolio Management
           </h2>

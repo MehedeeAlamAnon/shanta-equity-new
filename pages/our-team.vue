@@ -30,10 +30,10 @@
           class="w-full"
         />
       </div>
-      <p class="text-20px leading-35px font-light text-justify mt-21px">
+      <p class="text-20px leading-snug font-light text-justify mt-21px">
         {{ member.name }}
       </p>
-      <p class="text-16px font-bold text-justify mt-10px">
+      <p class="text-16px font-bold text-justify mt-12px">
         {{ member.designation }}
       </p>
     </div>

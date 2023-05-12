@@ -1,6 +1,6 @@
 <template>
   <section
-    class="portfolio-management mb-200px bg-no-repeat bg-cover bg-center h-570px sm:(h-500px) md:(h-560px) 2xl:(h-383px)"
+    class="portfolio-management bg-no-repeat bg-cover bg-center xl:(h-400px) <sm:(h-250px) sm:(h-300px)"
   >
     <div
       class="portfolio-management-overlay h-full grid grid-cols-1 2xl:(grid-cols-2)"
@@ -9,12 +9,12 @@
         class="w-[95%] px-4 md:(w-730px) lg:(w-778px) mx-auto text-white w-full 2xl:(w-613px ml-160px)"
       >
         <h3
-          class="text-36px <sm:(text-26px) xl:(text-45px leading-75px) mb-36px mt-41px font-bold 2xl:(mb-61px)"
+          class="text-26px <sm:(text-18px) xl:(text-36px leading-snug) mb-36px pt-60px font-bold 2xl:(mb-40px)"
         >
           Portfolio Management
         </h3>
         <h2
-          class="text-46px leading-tight mb-40px <sm:(text-36px) sm:(mb-56px) xl:(text-85px leading-75px) font-bold"
+          class="text-48px leading-tight mb-40px <sm:(text-32px) sm:(mb-56px) xl:(text-72px leading-snug) font-bold"
         >
           Don’t delay <br />
           Invest today.

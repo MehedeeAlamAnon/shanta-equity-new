@@ -5,7 +5,7 @@
         <!-- inner internal wrapper start -->
         <div class="w-full mb-60px">
           <h2
-            class="text-28px sm:text-35px leading-35px text-[#1F3C74] font-light border-bottom border-bottom-1px border-[#1F3C74] pb-31px mb-40px"
+            class="text-26px sm:text-32px leading-snug text-[#1F3C74] font-light border-bottom border-bottom-1px border-[#1F3C74] pb-31px mb-40px"
           >
             Portfolio Management
           </h2>
@@ -19,7 +19,7 @@
         <!-- inner internal wrapper start -->
         <div class="w-full">
           <h2
-            class="text-28px sm:text-35px leading-35px text-[#1F3C74] font-light border-bottom border-bottom-1px border-[#1F3C74] pb-31px mb-40px"
+            class="text-26px sm:text-32px leading-snug text-[#1F3C74] font-light border-bottom border-bottom-1px border-[#1F3C74] pb-31px mb-40px"
           >
             Investment Banking
           </h2>
