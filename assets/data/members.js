@@ -140,8 +140,8 @@ const members = [
   },
   {
     id: 8,
-    name: "Rifat",
-    designation: "Management Trainee",
+    name: "Rifat Mahmood",
+    designation: "Senior Executive",
     avatar: "rifat.jpg",
     socialLinkedin: "",
     description: `

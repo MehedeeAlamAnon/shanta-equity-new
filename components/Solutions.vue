@@ -14,7 +14,7 @@
                   Investment Banking
                 </h2>
                 <p class="mb-4 xl:mb-8 leading-relaxed" >
-                    We offer a comprehensive range of investment banking services, including Issue Management for IPOs, Issuance of Bonds and Preference Shares, M&A Valuation, and Corporate Advisory, to help our corporate partners achieve their financial needs
+                    We offer a comprehensive range of investment banking services, including Issue Management for IPOs, Issuance of Bonds and Preference Shares, M&A Valuation, and Corporate Advisory, to help our corporate partners achieve their financial needs.
                 </p>
                 <p>
                   <a href="" class="text-[#1F3C74]">Our Investment Banking Offerings</a>
@@ -35,7 +35,7 @@
                   Portfolio Management
                 </h2>
                 <p class="mb-4 xl:mb-8 leading-relaxed" >
-                  “We provide discretionary and non-discretionary portfolio management services that are tailored to the unique needs of our clients. In case of non-discretionary portfolio management, we also provide margin financing.” 
+                  We provide discretionary and non-discretionary portfolio management services that are tailored to the unique needs of our clients. In case of non-discretionary portfolio management, we also provide margin financing.
                 </p>
                 <p>
                   <a href="" class="text-[#1F3C74]">Our Portfolio Management Offerings</a>
@@ -45,7 +45,7 @@
       </div>
     </section>
   </template>
-  
+
 <style lang="scss" scoped>
 @media (max-width: 640px) {
   .sec-title {
@@ -53,4 +53,3 @@
   }
 }
 </style>
-  
