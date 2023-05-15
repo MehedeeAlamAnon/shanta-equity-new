@@ -8,11 +8,16 @@
         <div class="item">
           <div class="flex gap-24px">
             <div class="min-w-32px <sm:min-w-24px">
-              <font-awesome-icon :icon="['fas', 'phone']" size="2xl" class="text-[#aaa100] icon" />
+              <font-awesome-icon
+                :icon="['fas', 'phone']"
+                size="2xl"
+                class="icon"
+              />
             </div>
             <div>
               <h5 class="text-24px mb-3 <sm:(text-20px)">Call us</h5>
-              <p class="text-16px text-[#e0e0e0] leading-snug">02-9612606</p>
+              <p class="text-16px text-[#e0e0e0] leading-snug">01313 0202 91</p>
+              <p class="text-16px text-[#e0e0e0] leading-snug">02 9612606</p>
             </div>
           </div>
         </div>
@@ -21,11 +26,17 @@
         <div class="item">
           <div class="flex gap-24px">
             <div class="min-w-32px <sm:min-w-24px">
-              <font-awesome-icon :icon="['fas', 'envelope']" size="2xl" class="text-[#aaa100] icon" />
+              <font-awesome-icon
+                :icon="['fas', 'envelope']"
+                size="2xl"
+                class="text icon"
+              />
             </div>
             <div>
               <h5 class="text-24px mb-3 <sm:(text-20px)">Email us</h5>
-              <p class="text-16px text-[#e0e0e0] leading-snug">info@shantaequity.net</p>
+              <p class="text-16px text-[#e0e0e0] leading-snug">
+                info@shantaequity.net
+              </p>
             </div>
           </div>
         </div>
@@ -34,11 +45,18 @@
         <div class="item">
           <div class="flex gap-24px">
             <div class="min-w-32px <sm:min-w-24px">
-              <font-awesome-icon :icon="['fas', 'map-marker-alt']" size="2xl" class="text-[#aaa100] icon" />
+              <font-awesome-icon
+                :icon="['fas', 'map-marker-alt']"
+                size="2xl"
+                class="text icon"
+              />
             </div>
             <div>
               <h5 class="text-24px mb-3 <sm:(text-20px)">Address</h5>
-              <p class="text-16px text-[#e0e0e0] leading-snug">The Glass House Level 4, S.E (B)-2, 38 Gulshan Avenue, Dhaka 1212</p>
+              <p class="text-16px text-[#e0e0e0] leading-snug">
+                The Glass House (Level 4), S.E(B) - 2, 38 Gulshan Avenue, Dhaka
+                1212
+              </p>
             </div>
           </div>
         </div>
@@ -66,7 +84,8 @@
             <p
               class="text-16px leading-22px tracking-0.04em mb-4 max-w-257px"
             >
-              The Glass House Level 04, S.E (B)-2, 38 Gulshan Avenue, Dhaka 1212
+              The Glass House (Level 4), S.E(B) - 2, 38 Gulshan Avenue, Dhaka
+              1212
             </p>
             <h3
               class="text-20px leading-24px font-semibold tracking-0.04em mb-3"
@@ -99,7 +118,9 @@
                 <NuxtLink to="/our-team" class="footer-nav-link">Team</NuxtLink>
               </li>
               <li class="footer-nav-item">
-                <NuxtLink to="/documents" class="footer-nav-link">Documents</NuxtLink>
+                <NuxtLink to="/documents" class="footer-nav-link"
+                  >Documents</NuxtLink
+                >
               </li>
               <!-- <li class="footer-nav-item">
                 <NuxtLink to="/career" class="footer-nav-link">Career</NuxtLink>
@@ -123,16 +144,16 @@
               <a
                 href="https://www.facebook.com/shantaequity/"
                 target="_blank"
-                class="block w-30px"
-                ><img src="~/assets/images/facebook-icon.png" alt="facebook"
+                class="block"
+                ><img src="~/assets/images/facebook-icon.svg" alt="facebook"
               /></a>
             </li>
             <li>
               <a
                 href="https://www.linkedin.com/company/shantaequity/"
                 target="_blank"
-                class="block w-35px"
-                ><img src="~/assets/images/linkedin-icon.png" alt="linkedin"
+                class="block"
+                ><img src="~/assets/images/linkedin-icon.svg" alt="linkedin"
               /></a>
             </li>
           </ul>
@@ -152,7 +173,6 @@
   .icon {
     font-size: 24px;
   }
-
 }
 @media (min-width: 640px) and (max-width: 767px) {
   .item {
@@ -168,8 +188,8 @@
     font-size: 16px;
     line-height: 1.6;
     letter-spacing: 0.04em;
-    &:hover{
-      color: #1F3C74;
+    &:hover {
+      color: #1f3c74;
     }
   }
 }
